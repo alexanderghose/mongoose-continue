@@ -55,7 +55,7 @@
 <tr>
   <td><strong>Afternoon</strong></td>
   <td>
-    <a href="w01/d2/js-intro-datatypes.md">Intro to JS & Datatypes</a></br></br>
+    <a href="w01/d1/js-intro-datatypes.md">Intro to JS & Datatypes</a></br></br>
   </td>
   <td>
     <a href="w01/d2/template-literals-walkthru.md">Template Literals</a></br></br>
