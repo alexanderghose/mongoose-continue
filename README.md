@@ -12,10 +12,10 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Instructional Team / Contact Info
 - Link to Deliverable Schedule
 - Class Repository Structure
-- Becoming Familiar With the SEI GitHub Workflow
 - Daily JavaScript Code Challenges
 - Additional Coding Practice Resources
 - Immersive Graduation Requirements
+- Becoming Familiar With the SEI GitHub Workflow
 
 ### Course Dates and Holidays
 
@@ -139,7 +139,50 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
   /w03
 ```
 
+
+### Daily Code Challenges
+
+There are 30 <strong>strongly recommended</strong> code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
+
+Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/sei-toronto/daily-code-challenges). (Let the instructor know if you can't access the repo!)
+
+These coding challenges start at the end of week 1 (once you've learned javascript functions) and will continue through week 12 (excluding project weeks).
+
+
+### Additional Coding Practice Resources
+
+If/when you find yourself with extra time, look into these external resources:
+
+- [Edabit](https://edabit.com/challenges/javascript) <- especially great for true beginners
+- [Codewars](https://www.codewars.com/)
+- [LeetCode](https://www.leetcode.com/) <- medium to difficult interview questions
+- [CodeSignal](https://codesignal.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [Advent of Code](https://adventofcode.com/)
+
+
+### GA SEI Graduation Requirements
+
+General Assembly's courses are pass/fail programs. We have certain requirements in order to be considered a graduate of the SEI program:
+
+- No more than 3 days absent from class over the duration of the course (3 lates will count as 1 absence)
+- Successful completion of four assigned projects.
+- Successful completion of each project's assessment.  Passing the project assessment is a requirement of the project itself.
+- If you fail any part of a project (the project requirements, or the project assessment challenge), you can resubmit that part **once**.
+- No violation of GA's zero tolerance plagiarism policy.
+- Participating in GA’s mid-course and end-of-course feedback surveys
+- Complete 80% of assigned "deliverables" (ideally 100%).
+
+When you complete our program with passing status, you unlock our alumni perks:
+
+- Support from the Outcomes Team, including participation in the Meet & Greet event (with prospective employers).
+- Receive a GA Letter of Completion (via email 1 week after graduation)
+- Credits and discounts for other GA courses (check with Student Services for details).
+- Access to our Alumni Community
+
 ### Becoming Familiar With the SEI GitHub Workflow
+
+Although we will cover the following topic in detail in class when we cover "git", you are welcome to get a headstart and try to "pull" the class notes from our git repository(repo), and "push" them to your "fork".
 
 #### Forking (copying) the GA Class Repo to Your GitHub Account
 
@@ -237,45 +280,5 @@ During group project merge conflicts will likely occur giving you an opportunity
 #### Important
 
 **"Nested" repos are never permitted**.  Therefore, if you have important code, such as your projects, that belongs in its own repo, **be sure to put that code in folders outside of the class repo**.
-
-### Daily Code Challenges
-
-There are 30 <strong>strongly recommended</strong> code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
-
-Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/sei-toronto/daily-code-challenges). (Let the instructor know if you can't access the repo!)
-
-These coding challenges start at the end of week 1 (once you've learned javascript functions) and will continue through week 12 (excluding project weeks).
-
-
-### Additional Coding Practice Resources
-
-If/when you find yourself with extra time, look into these external resources:
-
-- [Edabit](https://edabit.com/challenges/javascript) <- especially great for true beginners
-- [Codewars](https://www.codewars.com/)
-- [LeetCode](https://www.leetcode.com/) <- medium to difficult interview questions
-- [CodeSignal](https://codesignal.com/)
-- [HackerRank](https://www.hackerrank.com/)
-- [Advent of Code](https://adventofcode.com/)
-
-
-### GA SEI Graduation Requirements
-
-General Assembly's courses are pass/fail programs. We have certain requirements in order to be considered a graduate of the SEI program:
-
-- No more than 3 days absent from class over the duration of the course (3 lates will count as 1 absence)
-- Successful completion of four assigned projects.
-- Successful completion of each project's assessment.  Passing the project assessment is a requirement of the project itself.
-- If you fail any part of a project (the project requirements, or the project assessment challenge), you can resubmit that part **once**.
-- No violation of GA's zero tolerance plagiarism policy.
-- Participating in GA’s mid-course and end-of-course feedback surveys
-- Complete 80% of assigned "deliverables" (ideally 100%).
-
-When you complete our program with passing status, you unlock our alumni perks:
-
-- Support from the Outcomes Team, including participation in the Meet & Greet event (with prospective employers).
-- Receive a GA Letter of Completion (via email 1 week after graduation)
-- Credits and discounts for other GA courses (check with Student Services for details).
-- Access to our Alumni Community
 
 # Welcome!
