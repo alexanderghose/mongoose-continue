@@ -17,7 +17,7 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 - Immersive Graduation Requirements
 - Becoming Familiar With the SEI GitHub Workflow
 
-### Course Dates and Holidays
+### 1. Course Dates and Holidays
 
 - Course duration: Monday, Feb 8, 2021 - Friday, April 30, 2021 (12 weeks)
 - Holidays:
@@ -25,16 +25,16 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 	- Monday, April 5 (Easter)
 	- Monday, April 19
 
-### Link to Zoom Room
+### 2. Link to Zoom Room
 
 [Link to join the Zoom Room](https://generalassembly.zoom.us/j/98394794632?pwd=U08wUlBvRXU0QTVnUS9SMCtpYWo0dz09)
 
-### Weekly Schedule
+### 3. Weekly Schedule
 
 "What are we studying tomorrow? I want to look ahead!"<br>
 Well, fear not, Our up-to-the-minute schedule can be found right <a href="SCHEDULE.md">here</a>!
 
-### Course Curriculum
+### 4. Course Curriculum
 
 > The following is an overall schedule and is subject to change.
 
@@ -102,7 +102,7 @@ Well, fear not, Our up-to-the-minute schedule can be found right <a href="SCHEDU
   </tbody>
 </table>
 
-### Instructional Team Contact Information
+### 5. Instructional Team Contact Information
 
 |Role        | Name            | Slack       | Email |
 |:--         | :--             | :--         | :-- |
@@ -110,7 +110,7 @@ Well, fear not, Our up-to-the-minute schedule can be found right <a href="SCHEDU
 |Instructor/TA | Aidan Bell | @aidanbell | |
 |Instructor/TA | Denis Dujota | @Denis | |
 
-### Deliverables!
+### 6. Deliverables!
 
 A Deliverable is an assignment that is required to be submitted as instructed to your instructors.
 
@@ -122,7 +122,7 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
 
 [Repo to submit Deliverables](https://git.generalassemb.ly/sei-toronto/sei-37-9-deliverables)
 
-### Class Repo Structure
+### 7. Class Repo Structure
 
 ```
 /sei-37-9
@@ -140,7 +140,7 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
 ```
 
 
-### Daily Code Challenges
+### 8. Daily Code Challenges
 
 There are 30 <strong>strongly recommended</strong> code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
 
@@ -149,7 +149,7 @@ Just as with the class repo, you will fork & clone [the code challenges repo](ht
 These coding challenges start at the end of week 1 (once you've learned javascript functions) and will continue through week 12 (excluding project weeks).
 
 
-### Additional Coding Practice Resources
+### 9. Additional Coding Practice Resources
 
 If/when you find yourself with extra time, look into these external resources:
 
@@ -161,7 +161,7 @@ If/when you find yourself with extra time, look into these external resources:
 - [Advent of Code](https://adventofcode.com/)
 
 
-### GA SEI Graduation Requirements
+### 10. GA SEI Graduation Requirements
 
 General Assembly's courses are pass/fail programs. We have certain requirements in order to be considered a graduate of the SEI program:
 
@@ -180,7 +180,7 @@ When you complete our program with passing status, you unlock our alumni perks:
 - Credits and discounts for other GA courses (check with Student Services for details).
 - Access to our Alumni Community
 
-### Becoming Familiar With the SEI GitHub Workflow
+### 11. Becoming Familiar With the SEI GitHub Workflow
 
 Although we will cover the following topic in detail in class when we cover "git", you are welcome to get a headstart and try to "pull" the class notes from our git repository(repo), and "push" them to your "fork".
 
