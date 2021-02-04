@@ -104,7 +104,7 @@
     <a href="https://www.internetingishard.com/html-and-css/forms/">Read: Forms</a>
   </td>
   <td>
-    Practice fundamentals (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
+    <strong>Practice js fundamentals</strong> (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
     If you're comfortable with fundamentals, pick and choose a couple of these to read:<br>
     <a href="https://www.internetingishard.com/html-and-css/flexbox/">Read: Flexbox</a></br></br>
     <a href="https://www.internetingishard.com/html-and-css/advanced-positioning/">Read: Advanced Positioning</a></br></br>
@@ -113,7 +113,7 @@
   </td>
   <td>
     <a href="w01/d5/media-queries-lab.md">Media Queries Lab</a></br></br>
-    Practice fundamentals (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
+    <strong> Practice js fundamentals</strong> (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
     If you're comfortable with fundamentals, pick and choose a couple of these to play:
     <a href="https://flexboxfroggy.com/">Play: Flexbox Froggy</a> or <a href="https://cssgridgarden.com/">Play: CSS Grid Garden</a><br><br>
     <strong>Look ahead</strong> at DOM and DOM Events lectures
