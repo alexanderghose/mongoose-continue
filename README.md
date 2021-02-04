@@ -21,9 +21,9 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 
 - Course duration: Monday, Feb 8, 2021 - Friday, April 30, 2021 (12 weeks)
 - Holidays:
-	- Monday, February 11 (Family Day)
+	- Monday, February 15 (Family Day)
+	- Friday, April 2 (Easter)
 	- Monday, April 5 (Easter)
-	- Monday, April 19
 
 ### 2. Link to Zoom Room
 
