@@ -1,4 +1,4 @@
-<h1><img src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png" alt="" style="max-width:100%;"></a> SEI Toronto - Cohort 36-8 - Schedule</h1>
+<h1><img src="https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png" alt="" style="max-width:100%;"></a> SEI Toronto - Cohort 37-9 - Schedule</h1>
 
 <i><strong>Lab submissions</strong>: Please submit labwork <strong>daily</strong> into your deliverables file. <strong>Partial submissions count</strong> so get into a habit of submitting them even if they aren't fully done yet!</i>
 
