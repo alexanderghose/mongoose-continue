@@ -1,0 +1,8 @@
+# This is a comment!
+
+# Things we want git to ignore for Unit 2
+.env
+
+
+# Things we want git to ignore for Unit 3
+__pycache__
