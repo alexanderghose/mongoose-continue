@@ -83,7 +83,7 @@
     <strong>Look ahead</strong> at tomorrow's material<br>(and try the exercises<br> (especially loops, arrays, and loops with arrays))<br><br>
     <a href="w01/d1/hw-markdown-intro.md">Intro to Markdown</a>(Skim)</br></br>
     <a href="w01/d1/git-intro-workflow.md">Review how to use git</a>(Skim)<br><br>
-    <a href="w01/d1/installfest.md">Install software for Units 2-4</a> (on your own time)<br><br>
+    <a href="w01/d1/installfest.md">Install software for Units 2-4</a> (totally optional)<br><br>
   </td>
   <td>
     Review the javascript lecture, recordings, and redo the in-class exercises<br><br>
