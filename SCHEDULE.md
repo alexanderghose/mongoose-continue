@@ -2,7 +2,9 @@
 
 <i><strong>Lab submissions</strong>: Please submit labwork <strong>daily</strong> into your deliverables file. <strong>Partial submissions count</strong> so get into a habit of submitting them even if they aren't fully done yet!</i>
 
-<i><strong>Lab due dates</strong>: Deliverables are always due 1 week after they are assigned, at midnight. (Ie., A deliverable assigned Monday January 1st will be due Monday January 8th at midnight). Ideally, though, try to do them <strong>right after</strong> the corresponding lecture.</i> Labs submitted within 24 hours of being assigned will gain a <strong>+10% bonus credit</strong>. If you gain 10 of these credits, you can skip out on one lab of your choice.
+<i><strong>Lab due dates</strong>: Deliverables are always due 1 week after they are assigned, at midnight. (Ie., A deliverable assigned Monday January 1st will be due Monday January 8th at midnight). Ideally, though, try to do them <strong>right after</strong> the corresponding lecture.</i>
+
+<i><strong>Bonus marks:</strong> Labs submitted <strong>within 24 hours of being assigned will gain a +10% bonus credit</strong>, with most questions attempted (even if not successfully solved). If you gain 10 of these credits, you can skip out on one lab of your choice.</i>
 
 <br>
 
