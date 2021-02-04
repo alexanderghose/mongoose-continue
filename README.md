@@ -19,14 +19,20 @@ This will be your shared class repo! Guides, in-class labs and code samples, and
 
 ### Course Dates and Holidays
 
-- Course duration: Monday, July 13th, 2020 - Friday, October 2nd, 2020 (12 weeks)
+- Course duration: Monday, Feb 8, 2021 - Friday, April 30, 2021 (12 weeks)
 - Holidays:
-	- Monday, August 3rd (Simcoe Day)
-	- Monday, September 7th (Labour Day)
+	- Monday, February 11 (Family Day)
+	- Monday, April 5 (Easter)
+	- Monday, April 19
 
 ### Link to Zoom Room
 
-[Link to join the Zoom Room](https://generalassembly.zoom.us/j/96334798267?pwd=RTZwbEhKQUtaRy9ZNTVOYStVU2R0dz09)
+[Link to join the Zoom Room](https://generalassembly.zoom.us/j/98394794632?pwd=U08wUlBvRXU0QTVnUS9SMCtpYWo0dz09)
+
+### Weekly Schedule
+
+"What are we studying tomorrow? I want to look ahead!"<br>
+Well, fear not, Our up-to-the-minute schedule can be found right <a href="SCHEDULE.md">here</a>!
 
 ### Course Curriculum
 
@@ -114,12 +120,12 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
 
 [The Deliverables will be listed in the Schedule](./SCHEDULE.md)
 
-[Repo to submit Deliverables](https://git.generalassemb.ly/sei-toronto/sei-33-5-deliverables)
+[Repo to submit Deliverables](https://git.generalassemb.ly/sei-toronto/sei-37-9-deliverables)
 
 ### Class Repo Structure
 
 ```
-/sei-33-5
+/sei-37-9
   /assessments
   /computer-science
   /projects
@@ -140,7 +146,7 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
 You will have read-only access to the GA class repo.  However, you most certainly will want to be able to make changes (e.g., add notes, save code exercises, etc).  These changes will be saved to your own personal copy of GA's Student repo - known as a **fork**. To get this fork do the following:
 
 1. Make sure that you're logged in to your GA **Enterprise** GitHub account. If you have not signed up yet, here's the link to do so: [https://git.generalassemb.ly/join?source=header](https://git.generalassemb.ly/join?source=header)
-2. In another tab, browse to the GA class repo:  [https://git.generalassemb.ly/sei-toronto/sei-33-5](https://git.generalassemb.ly/sei-toronto/sei-33-5)
+2. In another tab, browse to the GA class repo:  [https://git.generalassemb.ly/sei-toronto/sei-37-9](https://git.generalassemb.ly/sei-toronto/sei-37-9)
 3. In the top-right corner of the page, click the `Fork` button.
 Now you will have a copy of the repo in **your** Enterprise GitHub account!
 
@@ -154,10 +160,10 @@ Now that you have a copy of the class repo in your GitHub account, it's time to 
 4. In Terminal, type `git clone ` and follow it by pasting in the copied URL from the clipboard. The command should now look something like this (Note: don't type the "$". The $ is just a convention we coders use to indicate "hey, we are typing in the command line now"):
 
 ```
-$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/sei-33-5
+$ git clone https://git.generalassemb.ly/YOUR-ENTERPRISE-GITHUB-USERNAME/sei-37-9
 ```
 
-You can now `$ cd sei-33-5` and check out your local copy of of the GA class repo!
+You can now `$ cd sei-37-9` and check out your local copy of of the GA class repo!
 
 #### Adding a git _remote_ for the original GA class repo
 
@@ -176,7 +182,7 @@ Note that by convention, the remote that points to the GitHub repo it was cloned
 However, in order to get the updates that the instructors push to the GA class repo, you will need to create another **remote** that points to GA's class repo that you forked:
 
 ```
-$ git remote add upstream https://git.generalassemb.ly/sei-toronto/sei-33-5.git
+$ git remote add upstream https://git.generalassemb.ly/sei-toronto/sei-37-9.git
 ```
 
 Note that by convention, the remote that points to the *original* GitHub repo that was forked is named **upstream**.
@@ -234,7 +240,7 @@ During group project merge conflicts will likely occur giving you an opportunity
 
 ### Daily Code Challenges
 
-There are 30 <strong>required</strong> code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
+There are 30 <strong>strongly recommended</strong> code challenges that will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
 
 Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/sei-toronto/daily-code-challenges). (Let the instructor know if you can't access the repo!)
 
