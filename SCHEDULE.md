@@ -87,6 +87,7 @@
   </td>
   <td>
     Review the javascript lecture, recordings, and redo the in-class exercises<br><br>
+    If you feel comfortable with javascript, pick and choose a couple of these to read:
     <a href="https://www.internetingishard.com/html-and-css/introduction/">Read: HTML & CSS: Introduction</a>, 
     <a href="https://www.internetingishard.com/html-and-css/basic-web-pages/">Basic Web Pages</a>, and
     <a href="https://www.internetingishard.com/html-and-css/links-and-images/">Links and Images</a></br></br>
