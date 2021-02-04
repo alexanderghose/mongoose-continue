@@ -98,10 +98,14 @@
     <a href="https://flukeout.github.io/">Play: CSS Diner</a>
   </td>
   <td>
+    Review looping over arrays & practice/repeat.<br><br>
     Look ahead at functions, and DOM<br><br>
+    If you're comfortable with loops and functions:<br>
     <a href="https://www.internetingishard.com/html-and-css/forms/">Read: Forms</a>
   </td>
   <td>
+    Practice fundamentals (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
+    If you're comfortable with fundamentals, pick and choose a couple of these to read:<br>
     <a href="https://www.internetingishard.com/html-and-css/flexbox/">Read: Flexbox</a></br></br>
     <a href="https://www.internetingishard.com/html-and-css/advanced-positioning/">Read: Advanced Positioning</a></br></br>
     <a href="https://www.internetingishard.com/html-and-css/responsive-design/">Read: Responsive Design</a></br></br>
@@ -109,8 +113,9 @@
   </td>
   <td>
     <a href="w01/d5/media-queries-lab.md">Media Queries Lab</a></br></br>
+    Practice fundamentals (looping on arrays and functions) using resources like edabit. Edabit has fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
+    If you're comfortable with fundamentals, pick and choose a couple of these to play:
     <a href="https://flexboxfroggy.com/">Play: Flexbox Froggy</a> or <a href="https://cssgridgarden.com/">Play: CSS Grid Garden</a><br><br>
-    Try some of these fun little gamified <a href="https://edabit.com/challenges">javascript challenges</a><br><br>
     <strong>Look ahead</strong> at DOM and DOM Events lectures
   </td>
 </tr>
