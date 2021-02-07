@@ -9,6 +9,7 @@
 | Describe what a Version Control System is |
 | Describe the difference between Git and GitHub |
 | Distinguish between local and remote repositories |
+| Use basic git commands to create a repo, clone it, and update it |
 | Fork & clone the class repo to a computer |
 | Use basic git commands to retrieve updates to the class repo |
 | Use basic git commands to save work to the fork of the class repo | 
@@ -68,19 +69,22 @@ This is the basic git/GH workflow.  Things get a bit more complex when you start
 
 > IMPORTANT: Do not create a repo within an existing repo!  If you find your computer very sluggish, it might be because you have "nested" repos. It's not uncommon for students to accidentally make their home folder (`~`) a repo - so start there if you suspect something is wrong.
 
+<hr>
+
+
 ## Basic Workflow Overview: When the repo owner trusts you! (Or IS you!)
 
 If you are a collaborator with "write" access to a repo, using git is pretty easy! 
 The basic workflow is to: 
-1. Clone (do this only once)
-2. Synchronize your local copy
-3. Add, Commit, Push (every time you wish to save a change into the cloud)
+1. Clone (only once)
+2. Synchronize
+3. Save to cloud with a 3-step process of: Add, Commit, Push
 
 We can try it out by going to github.com and <strong>creating a new remote repository with a README.md file in it</strong>. Once your remote repo is setup with a .md file, start by: 
 
 ```cd``` -ing in terminal to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
 
-### Basic Workflow Pt. 1: Cloning the remote copy.
+### Basic Workflow Pt. 1 of 3: Clone
 
 Now, start by cloning the remote repository to your computer. As mentioned, you only do this once in order to have a local copy you can work with:
 
@@ -96,7 +100,7 @@ Let's ```cd``` into our newly created repo folder, and let's check if we have a 
 
 You should see that your local copy has 2 remote connections to a remote location called <strong>origin</strong>. This is good. This is the way.
 
-### Basic Workflow Pt. 2: Synchronize first before saving.
+### Basic Workflow Pt. 2 of 3: Synchronize
 
 Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: <strong>add, commit, and push.</strong> But wait... 
 
@@ -116,7 +120,7 @@ Before you push your work, you will want to ```pull``` to download any work that
 
 <strong>Fun note about Vim</strong>: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
-### Basic Workflow Pt. 3: Saving work: Add, commit, push.
+### Basic Workflow Pt. 3 of 3: Save (Add, commit, push.)
 
 Now that you've clone and made changes and synchronized, you can save your changes! Every time you want to save your changes, you will do the following in sequence:
 
@@ -157,7 +161,7 @@ In summary:
 
 5. we will repeat steps 2-4 for the duration of our project.
 
-## NOTE: 
+### Basic workflow: Limitations
 
 This workflow for simplicity skips the idea of branching, and also only works for repos where our collaborators trust us to have "write"(push) access. This isn't always the case, as we will see when we continue this lesson to clone our class repo, or the daily code challenges repo.
 
@@ -167,10 +171,13 @@ Get into your deliverables repo, and follow the instructions above to clone it t
 
 You should make a file with your name in it, and save it, following the instructions above.
 
+<hr>
+
+# Trust issues...
 
 ## Not so Basic workflow: When the repo owner doesn't trust you
 
-Someitmes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. So how can we save our changes? Introducing... forking.....
+Sometimes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. So how can we save our changes? Introducing... forking.....
 
 ## Fork & Clone the Class Repo
 
