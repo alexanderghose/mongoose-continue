@@ -38,6 +38,7 @@
     <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a>
   </td>
   <td>
+    Install VSCode<br><br>
     <a href="w01/d3/intro-to-html.md">Intro to HTML</a></br></br>
     <a href="w01/d3/intro-to-css.md">Intro to CSS</a></br></br>
     <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong>
