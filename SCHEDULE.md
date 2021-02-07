@@ -31,7 +31,7 @@
     Orientation</br><br>
     Install <a href="w01/d1/installfest.md#git">Git</a><br><br>
     <a href="w01/d1/intro-dev-env.md">Intro to the Dev Environment</a></br></br>
-    <a href="w01/d1/git-intro-workflow.md">Git (Basic Clone, Add, Commit, Push Workflow)</a></br></br>
+    <a href="w01/d1/git-intro-workflow.md">Basic Git Workflow</a>(Clone, Add, Commit, Push)</br></br>
   </td>
   <td>
     <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a>
