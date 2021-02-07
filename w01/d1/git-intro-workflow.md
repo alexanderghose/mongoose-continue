@@ -78,8 +78,9 @@ The basic workflow is to:
 
 We can try it out by going to github.com and <strong>creating a new remote repository with a README.md file in it</strong>. Once your remote repo is setup with a .md file, start by: 
 
-### Basic Workflow Pt. 1: Cloning the remote copy.
 ```cd``` -ing in terminal to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
+
+### Basic Workflow Pt. 1: Cloning the remote copy.
 
 Now, start by cloning the remote repository to your computer. As mentioned, you only do this once in order to have a local copy you can work with:
 
@@ -97,9 +98,9 @@ You should see that your local copy has 2 remote connections to a remote locatio
 
 ### Basic Workflow Pt. 2: Saving local work to the remote.
 
-Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: add, commit, and push.
+Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: <strong>add, commit, and push.</strong>
 
-#### NOTE:
+#### NOTE: Pull before Pushing!
 Before you push things, you want to make sure your local copy is synchronized with the remote copy. After all, since the time that you've cloned it, other people may have made changes or edits to the repository. 
 
 Before you push your work, you will want to ```pull``` to download any work that other people have done by typing:
