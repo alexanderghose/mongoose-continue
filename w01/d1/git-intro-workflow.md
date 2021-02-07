@@ -177,7 +177,7 @@ You should make a file with your name in it, and save it, following the instruct
 
 Sometimes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. All large open source projects are like this, such as the VSCode project, or the Chromium web browser.
 
-So how can we save our changes? Introducing: forking.....
+So how can we save our changes? Introducing: <strong>fork and clone</strong> workflow.....
 
 ## Fork & Clone the Class Repo
 
