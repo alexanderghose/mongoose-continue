@@ -68,16 +68,18 @@ This is the basic git/GH workflow.  Things get a bit more complex when you start
 
 > IMPORTANT: Do not create a repo within an existing repo!  If you find your computer very sluggish, it might be because you have "nested" repos. It's not uncommon for students to accidentally make their home folder (`~`) a repo - so start there if you suspect something is wrong.
 
-## Basic Workflow Pt. 1: When the repo owner trusts you.
+## Basic Workflow Overview: When the repo owner trusts you! (Or IS you!)
 
 If you are a collaborator with "write" access to a repo, using git is pretty easy! 
 The basic workflow is to: 
 1. Clone (do this only once)
-2. Add, Commit, Push (every time you wish to save a change into the cloud)
+2. Synchronize your local copy
+3. Add, Commit, Push (every time you wish to save a change into the cloud)
 
-We can try it out by going to github.com and creating a new remote repository with a README.md.
+We can try it out by going to github.com and <strong>creating a new remote repository with a README.md file in it</strong>. Once your remote repo is setup with a .md file, start by: 
 
-Once your remote repo is setup with a .md file, start by ```cd``` -ing in terminal to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
+### Basic Workflow Pt. 1: Cloning the remote copy.
+```cd``` -ing in terminal to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
 
 Now, start by cloning the remote repository to your computer. As mentioned, you only do this once in order to have a local copy you can work with:
 
@@ -93,18 +95,22 @@ Let's ```cd``` into our newly created repo folder, and let's check if we have a 
 
 You should see that your local copy has 2 remote connections to a remote location called <strong>origin</strong>. This is good. This is the way.
 
+### Basic Workflow Pt. 2: Saving local work to the remote.
+
 Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: add, commit, and push.
 
-###NOTE:
+#### NOTE:
 Before you push things, you want to make sure your local copy is synchronized with the remote copy. After all, since the time that you've cloned it, other people may have made changes or edits to the repository. 
 
 Before you push your work, you will want to ```pull``` to download any work that other people have done by typing:
+
 ```git pull origin main``` or
+
 ```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master".
 
 Fun note about Vim: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
-###Add, commit, push.
+### Basic Workflow Pt. 3: Add, commit, push.
 
 Now that you've clone and made changes and synchronized, you can save your changes! Do the following.
 
@@ -130,7 +136,7 @@ Verify that you can see your changes on the github.com webpage. Every time you w
 
 (after synchronizing with a pull, of course).
 
-## Basic Workflow Pt. 1: Practice
+## Basic Workflow: Practice
 
 Get into your deliverables repo, and follow the instructions above to clone it to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
 
