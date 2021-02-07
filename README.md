@@ -142,7 +142,7 @@ Graduation requires that 80% of deliverables be completed (working) and delivere
 
 ### 8. Daily Code Challenges
 
-There are 30 code challenges (from which <strong>it is required to complete at least 50% of them)</strong>. These code challenges will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
+There are 30 code challenges (from which <strong>it is required to complete at least 80% of them)</strong>. These code challenges will help you get the necessary practice of writing code, as well as teach you new methods and techniques.
 
 Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/sei-toronto/daily-code-challenges). (Let the instructor know if you can't access the repo!)
 
