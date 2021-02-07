@@ -136,7 +136,7 @@ Third, push(save your work to the remote):
 
 Verify that you can see your changes on the github.com webpage. Every time you want to save changes from your local copy to your remote copy, whether you're deleting a file, or adding a file, or editing a file, you will do this 3-step process of:
 
-1. ```git add <stuff we want to stage>`
+1. ```git add <stuff we want to stage>```
 2. ```git commit -m "my message"```
 3. ```git push origin main``` or more generally ```git push <remotename> <branchname>```
 
@@ -151,7 +151,7 @@ In summary:
 3. synchronize: we will do a ```git pull origin main``` to sync up our changes with our partners
 4. save: we will do our 3 step process of:
 
-- ```git add <stuff we want to stage>`
+- ```git add <stuff we want to stage>```
 - ```git commit -m "my message"```
 - ```git push origin main``` or more generally ```git push <remotename> <branchname>```
 
