@@ -56,11 +56,13 @@
   <td><strong>Afternoon</strong></td>
   <td>
     <a href="w01/d1/js-intro-datatypes.md">Intro to JS & Datatypes</a></br></br>
+    <a href="w01/d1/js-arrays.md">JS Arrays Pt. 1: Working with arrays</a></br></br>
+    <a href="w01/d1/js-arrays-lab-0.md">Lab: JS Arrays (Deliverable<br /> #0)</a> <strong>Due: Next Monday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
     <a href="w01/d2/template-literals-walkthru.md">Template Literals</a></br></br>
-    <a href="w01/d2/js-arrays.md">JS Arrays</a></br></br>
-    <a href="w01/d2/js-arrays-lab.md">Lab: JS Arrays (Deliverable<br /> #1)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
+    <a href="w01/d2/js-arrays.md">JS Arrays Pt. 2: Looping over Arrays</a></br></br>
+    <a href="w01/d2/js-arrays-lab-1.md">Lab: Looping over Arrays (Deliverable<br /> #1)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
     <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
