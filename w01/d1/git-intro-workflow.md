@@ -114,20 +114,21 @@ Before you push your work, you will want to ```pull``` to download any work that
 
 ```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master".
 
-Fun note about Vim: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
+<strong>Fun note about Vim</strong>: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
 ### Basic Workflow Pt. 3: Saving work: Add, commit, push.
 
-Now that you've clone and made changes and synchronized, you can save your changes! Do the following.
+Now that you've clone and made changes and synchronized, you can save your changes! Every time you want to save your changes, you will do the following in sequence:
 
-First, stage your changes to the staging area:
+1. stage your changes to the staging area:
 
 ```git add .```
 
-Second, commit(save) your work locally:
+2. commit(save) your work locally:
+
 ```git commit -m 'deleting readme.md and adding a file'```
 
-Another fun note about Vim: if you ever omit the -m message, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
+<strong>Another fun note about Vim</strong>: if you ever omit the -m message, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
 Third, push(save your work to the remote):
 ```git push origin main``` or
