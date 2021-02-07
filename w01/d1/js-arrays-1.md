@@ -191,7 +191,7 @@ The `splice` method always returns an array containing the removed elements.
 - Example:
 
 	```js
-	movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
+	movies = [ 'Spaceballs', 'The Sting', 'Alien' ]
 	let lastTwoMovies = movies.slice(1, 3); // ['The Sting, 'Alien']
 	```
 
@@ -211,16 +211,6 @@ The `splice` method always returns an array containing the removed elements.
 	```
 	The elements are being "spread" within the array literal
 
----
-### Copy All of an Array & Insert
-<br>
-
-- Here's how you can copy and insert additional elements simultaneously using the spread operator:
-
-	```js
-	movies => [ 'Spaceballs', 'The Sting', 'Alien' ]
-	let moreMovies = ['Interstellar', ...movies, 'Contact'];
-	```
 
 ---
 ### Create a Single String from an Array
@@ -244,10 +234,29 @@ The `splice` method always returns an array containing the removed elements.
 ---
 ## Loops
 
-### Iterate Over All of the Elements in an Array
-<br>
+A loop allows you to iterate over every element of an array in order to do something useful. 
 
-- See tomorrow's lesson!
+### Simple transforming and filtering.
+
+Some simple to do common tasks include:
+
+1. transforming all individual elements of an array in some way (eg., make everything uppercase)
+2. filtering for elements that pass some kind of test (eg., keep elements that are greater than 5, and discard all others)
+
+To learn how to do these operations, check out the syntax found here, and give the exercises a try:
+
+<a href="https://edabit.com/tutorial/javascript#loops">Edabit: map and filter example</a>
+
+### More interesting transformations
+
+Some tasks require a more complex syntax - a 'for loop' - because we have to manipulate the values and the indices of the array. These tasks might include:
+
+1. printing each individual element
+2. interacting with multiple elements of an array to find the largest number (requires a temporary variable and an if statement in a for loop)
+3. interacting with multiple elements of an array to sum all the elements together (requires a temporary variable and an assignment statement in a for loop)
+4. anything involving a "grid" or a "2D array"
+
+- To learn how to do these and more, see tomorrow's lesson!
 
 ---
 
@@ -274,13 +283,14 @@ The `splice` method always returns an array containing the removed elements.
 
 - Because arrays are such a useful data structure, it's beneficial to developers to know what methods are available and what they do.
 
-- Array iterator methods are extremely useful and we will cover them in a later lesson. Check [here](https://gist.github.com/jim-clark/843ebb5288d90da6b0dfd9eecd134b7c) for a preview.
-
 - Other useful methods worth knowing about:
 	- `indexOf` / `lastIndexOf`
 	- `includes`
 	- `reverse`
 	- `sort`
+
+- In addition to map and filter, other array iterator methods are extremely useful and we will cover them in a later lesson. Check [here](https://gist.github.com/jim-clark/843ebb5288d90da6b0dfd9eecd134b7c) for a preview.
+
 
 ---
 ### References
