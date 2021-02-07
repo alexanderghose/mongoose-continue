@@ -121,12 +121,11 @@ Fun note about Vim: if you ever pull after someone's modified the remote, you wi
 Now that you've clone and made changes and synchronized, you can save your changes! Do the following.
 
 First, stage your changes to the staging area:
-```git add .
-```
+
+```git add .```
 
 Second, commit(save) your work locally:
-```git commit -m 'deleting readme.md and adding a file'
-```
+```git commit -m 'deleting readme.md and adding a file'```
 
 Another fun note about Vim: if you ever omit the -m message, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
