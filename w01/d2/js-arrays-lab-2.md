@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/sA6iEbw.jpg">
 
-# JavaScript Arrays Lab
+# JavaScript Looping over Arrays Lab
 
 ## Introduction
 
-This lab provides an opportunity to practice defining, accessing and manipulating arrays.
+This lab provides an opportunity to practice looping over arrays.
 
 > **Note:** Feel free to reference the arrays lesson, collaborate, google, etc.
 
@@ -12,7 +12,7 @@ This lab provides an opportunity to practice defining, accessing and manipulatin
 
 Create a new HTML/CSS/JS repl on [repl.it](https://repl.it) for these exercises.
 
-Title your repl **JS Array Lab**.
+Title your repl **JS Looping over Arrays Lab**.
 
 Copy the exercises below into the repl's **script.js** file and code away!
 
