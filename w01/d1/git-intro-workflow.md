@@ -157,14 +157,20 @@ In summary:
 
 5. we will repeat steps 2-4 for the duration of our project.
 
-## NOTE: This workflow for simplicity skips the idea of branching, and also only works for repos where our collaborators trust us to have "write"(push) access. This isn't always the case, as we will see when we continue this lesson to clone our class repo, or the daily code challenges repo.
+## NOTE: 
 
-## Basic Workflow: Practice
+This workflow for simplicity skips the idea of branching, and also only works for repos where our collaborators trust us to have "write"(push) access. This isn't always the case, as we will see when we continue this lesson to clone our class repo, or the daily code challenges repo.
+
+## Basic Workflow: Practice!!
 
 Get into your deliverables repo, and follow the instructions above to clone it to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
 
-You should make a file with your name in it, and save it.
+You should make a file with your name in it, and save it, following the instructions above.
 
+
+## Not so Basic workflow: When the repo owner doesn't trust you
+
+Someitmes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. So how can we save our changes? Introducing... forking.....
 
 ## Fork & Clone the Class Repo
 
