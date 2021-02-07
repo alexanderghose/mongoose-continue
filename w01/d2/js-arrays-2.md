@@ -1,7 +1,7 @@
 
 <img src="https://i.imgur.com/DEsPVNw.png" height="400">
 
-# Intro to JavaScript Arrays
+# Looping over Arrays
 
 ---
 
