@@ -96,12 +96,17 @@ Let's ```cd``` into our newly created repo folder, and let's check if we have a 
 
 You should see that your local copy has 2 remote connections to a remote location called <strong>origin</strong>. This is good. This is the way.
 
-### Basic Workflow Pt. 2: Saving local work to the remote.
+### Basic Workflow Pt. 2: Synchronize first before saving.
 
-Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: <strong>add, commit, and push.</strong>
+Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: <strong>add, commit, and push.</strong> But wait... 
+
+- what if other people have modified the remote copy? 
+- What if all my local files are out of date? 
+- Am i going to be destroying other people's work if i save?
 
 #### NOTE: Pull before Pushing!
-Before you push things, you want to make sure your local copy is synchronized with the remote copy. After all, since the time that you've cloned it, other people may have made changes or edits to the repository. 
+
+Those questions were rhetorical. Yes, before you push things, you want to make sure your local copy is synchronized with the remote copy. After all, since the time that you've cloned it, other people may have made changes or edits to the repository. 
 
 Before you push your work, you will want to ```pull``` to download any work that other people have done by typing:
 
@@ -111,7 +116,7 @@ Before you push your work, you will want to ```pull``` to download any work that
 
 Fun note about Vim: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
 
-### Basic Workflow Pt. 3: Add, commit, push.
+### Basic Workflow Pt. 3: Saving work: Add, commit, push.
 
 Now that you've clone and made changes and synchronized, you can save your changes! Do the following.
 
@@ -127,15 +132,32 @@ Another fun note about Vim: if you ever omit the -m message, you will get into a
 
 Third, push(save your work to the remote):
 ```git push origin main``` or
-```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master".
+```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master", which is a little outdated.
 
 Verify that you can see your changes on the github.com webpage. Every time you want to save changes from your local copy to your remote copy, whether you're deleting a file, or adding a file, or editing a file, you will do this 3-step process of:
 
-1. add
-2. commit
-3. push
+1. ```git add <stuff we want to stage>`
+2. ```git commit -m "my message"```
+3. ```git push origin main``` or more generally ```git push <remotename> <branchname>```
 
-(after synchronizing with a pull, of course).
+(after synchronizing with a pull, of course). Try it again. Make some more changes, and then synchronize, and then add, commit, push.
+
+### Basic Workflow: Summary of steps
+
+In summary:
+
+1. clone: when we want to setup a local connection to our remote repo, we will first ```git clone https://... insert repo url here...``` and our local copy will be created
+2. modify: we can then modify our local copy to our heart's content.
+3. synchronize: we will do a ```git pull origin main``` to sync up our changes with our partners
+4. save: we will do our 3 step process of:
+
+- ```git add <stuff we want to stage>`
+- ```git commit -m "my message"```
+- ```git push origin main``` or more generally ```git push <remotename> <branchname>```
+
+5. we will repeat steps 2-4 for the duration of our project.
+
+## NOTE: This workflow for simplicity skips the idea of branching, and also only works for repos where our collaborators trust us to have "write"(push) access. This isn't always the case, as we will see when we continue this lesson to clone our class repo, or the daily code challenges repo.
 
 ## Basic Workflow: Practice
 
