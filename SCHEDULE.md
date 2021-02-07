@@ -29,7 +29,7 @@
   <td><strong>Morning</strong></td>
   <td>
     Orientation</br><br>
-    Install Git and VSCode<br><br>
+    Install Git<br><br>
     <a href="w01/d1/intro-dev-env.md">Intro to the Dev Environment</a></br></br>
     <a href="w01/d1/git-intro-workflow.md">Basic Git Workflow Pt. 1 of 3</a></br></br>
   </td>
