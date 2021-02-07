@@ -2,7 +2,7 @@
 
 # Intro to Git & Your Class Repo
 
-## Learning Objectives
+# Learning Objectives
 
 | Student will be able to: |
 |---|
@@ -14,7 +14,7 @@
 | Use basic git commands to retrieve updates to the class repo |
 | Use basic git commands to save work to the fork of the class repo | 
 
-## What is version control, and why should you care?
+# 1. What is version control, and why should you care?
 
 A Version Control System (VCS) records changes to files over time so that you can recall specific versions later.
 
@@ -31,7 +31,7 @@ In SEI, we'll be using the world's most popular version control system - [git](h
 
 Git was created by [Linus Torvolds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005 to help with the development of his main project at the time - developing Linux.
 
-## Git vs. GitHub
+# 2. Git vs. GitHub
 
 GitHub is not the same as git. **GitHub** is a social network built around git. It has completely changed the way we, as programmers, share and work on code. GitHub is now the largest online storage space of collaborative works, and it works with git in order to keep track of versions, issues, and requests for changes.
 
@@ -43,7 +43,7 @@ In summary:
 - GitHub provides us with remote repositories stored in the cloud
 - A local repository is "linked" to a remote repository by adding a "remote" with this command `$ git remote add <name of remote> <URL of repo on GitHub>`
 
-## Summary of Common Git Commands
+# 3. Summary of Common Git Commands
 
 By following along today and having done the pre-work, you should now be familiar with basic git commands.
 
@@ -72,7 +72,7 @@ This is the basic git/GH workflow.  Things get a bit more complex when you start
 <hr>
 
 
-## Basic Workflow Overview: When the repo owner trusts you! (Or IS you!)
+# 4. Basic Workflow Overview: When the repo owner trusts you! (Or IS you!)
 
 If you are a collaborator with "write" access to a repo, using git is pretty easy! 
 The basic workflow is to: 
@@ -173,11 +173,11 @@ You should make a file with your name in it, and save it, following the instruct
 
 <hr>
 
-# Trust issues...
+# 5. Trust issues: When the repo owner doesn't trust you
 
-## Not so Basic workflow: When the repo owner doesn't trust you
+Sometimes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. All large open source projects are like this, such as the VSCode project, or the Chromium web browser.
 
-Sometimes, you don't have "push" or "write" access to a repository, as in our class notes repo. You can still clone, but you can't push. So how can we save our changes? Introducing... forking.....
+So how can we save our changes? Introducing: forking.....
 
 ## Fork & Clone the Class Repo
 
