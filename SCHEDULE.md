@@ -39,16 +39,16 @@
   <td>
     <a href="w01/d3/intro-to-html.md">Intro to HTML</a></br></br>
     <a href="w01/d3/intro-to-css.md">Intro to CSS</a></br></br>
-    <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #2)</a><br /> <strong>Due: Next Wednesday</strong>
+    <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong>
   </td>
   <td>
       <a href="w01/d4/js-functions-and-scope.md">JS Functions & Scope</a></br></br>
-      <a href="w01/d4/js-functions-lab.md">Lab: JS Functions (Deliverable #3)</a><br /><strong>Due: Next Thursday</strong> <br /><em>(ideal: tonight)</em><br><br>
+      <a href="w01/d4/js-functions-lab.md">Lab: JS Functions (Deliverable #4)</a><br /><strong>Due: Next Thursday</strong> <br /><em>(ideal: tonight)</em><br><br>
       <a href="w01/d4/dom-intro.md">Intro to the DOM</a> and <a href="w01/d4/dom-events.md">DOM Events</a>
   </td>
   <td>
     <a href="w01/d5/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
-    <a href="w01/d5/css-flexbox-grid-lab">CSS Flexbox & Grid Lab (Deliverable #4)</a></br><strong>Due: Next Friday</strong>    
+    <a href="w01/d5/css-flexbox-grid-lab">CSS Flexbox & Grid Lab (Deliverable #5)</a></br><strong>Due: Next Friday</strong>    
   </td>
 </tr>
 
@@ -56,13 +56,13 @@
   <td><strong>Afternoon</strong></td>
   <td>
     <a href="w01/d1/js-intro-datatypes.md">Intro to JS & Datatypes</a></br></br>
-    <a href="w01/d1/js-arrays.md">JS Arrays Pt. 1: Working with arrays</a></br></br>
-    <a href="w01/d1/js-arrays-lab-0.md">Lab: JS Arrays (Deliverable<br /> #0)</a> <strong>Due: Next Monday</strong> <br /><em>(ideal: tonight)</em>
+    <a href="w01/d1/js-arrays-1.md">JS Arrays Pt. 1: Working with arrays</a></br></br>
+    <a href="w01/d1/js-arrays-lab-1.md">Lab: JS Arrays (Deliverable<br /> #1)</a> <strong>Due: Next Monday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
     <a href="w01/d2/template-literals-walkthru.md">Template Literals</a></br></br>
-    <a href="w01/d2/js-arrays.md">JS Arrays Pt. 2: Looping over Arrays</a></br></br>
-    <a href="w01/d2/js-arrays-lab-1.md">Lab: Looping over Arrays (Deliverable<br /> #1)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
+    <a href="w01/d2/js-arrays-2.md">JS Arrays Pt. 2: Looping over Arrays</a></br></br>
+    <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
     <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
