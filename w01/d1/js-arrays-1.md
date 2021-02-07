@@ -1,6 +1,3 @@
-[click to view as a presentation](https://presentations.generalassemb.ly/512005e819c210c3bae07b7d52f9fb8b#/1)
-
----
 <img src="https://i.imgur.com/DEsPVNw.png" height="400">
 
 # Intro to JavaScript Arrays
@@ -250,45 +247,7 @@ The `splice` method always returns an array containing the removed elements.
 ### Iterate Over All of the Elements in an Array
 <br>
 
-- Although a `for` loop can be used to iterate over an array, if you know you want to iterate over **all** of the elements in an array, the `forEach` method is a better approach:
-
-	```js
-	movies.forEach(function(movie) {
-		console.log(movie);
-	});
-	```
-
-
-- Try it out. As you can see, the `forEach` method calls the function provided as an argument **once for each element** in the array.
-
----
-### Iterate Over All of the Elements in an Array
-<br>
-	
-- You can also access the index of each iteration:
-
-	```js
-	movies.forEach(function(movie, idx) {
-		console.log(idx + ') ' + movie);
-	});
-	```
-
-- Note that it's a good practice to name the parameter that accepts each element as the singular of the array, or simply the first letter of the array variable (`movie` or `m` for the example above).
-
----
-### Iterate Over All of the Elements in an Array
-<br>
-
-- ES2015 provides the `for...of` loop for iterating over the elements of arrays and other iterables such as strings:
-
-	```js
-	for(let movie of movies) {
-		if (movie === 'The Last Airbender') break;
-		console.log(movie);
-	}
-	``` 
-
-- Unlike `forEach`, the `for...of` loop can be exited using the `break` statement.
+- See tomorrow's lesson!
 
 ---
 
