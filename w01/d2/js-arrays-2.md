@@ -26,7 +26,7 @@ Students will be able to:
 
 A loop allows you to iterate over every element of an array in order to do something useful. 
 
-### Simple transforming and filtering.
+### Recap: Simple transforming and filtering.
 
 Some simple to do common tasks include:
 
@@ -46,11 +46,10 @@ Some tasks require a more complex syntax - a 'for loop' - because we have to man
 3. interacting with multiple elements of an array to sum all the elements together (requires a temporary variable and an assignment statement in a for loop)
 4. anything involving a "grid" or a "2D array"
 
-- To learn how to do these and more, see tomorrow's lesson!
+- To learn how to do these and more, let's continue onwards:
 
 
----
-### Iterate Over All of the Elements in an Array
+### Iterating Over All of the Elements in an Array
 <br>
 
 - ES2015 provides the `for...of` loop for iterating over the elements of arrays and other iterables such as strings. It lets us easily operate on each value within the array, ignoring the index:
