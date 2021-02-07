@@ -42,6 +42,101 @@ In summary:
 - GitHub provides us with remote repositories stored in the cloud
 - A local repository is "linked" to a remote repository by adding a "remote" with this command `$ git remote add <name of remote> <URL of repo on GitHub>`
 
+## Summary of Common Git Commands
+
+By following along today and having done the pre-work, you should now be familiar with basic git commands.
+
+In SEI, you'll get plenty of practice using git, especially during project week because each of your projects will be stored in its own directory and will be made a git repository in that directory tracking the changes.
+
+> IMPORTANT: At some point, you will lose access to the class repo that's hosted on GA's GitHub Enterprise account. Not to worry.  You will of course have all of the materials and your work stored locally. Additionally, at the end of the cohort, you can simply add a new remote that links a repo on your personal GitHub account and push to it - that remote repo will then contain all materials and commits for your labs, practice exercises, code challenges, etc.
+
+For your convenience, there is a git command cheatsheet located in the `resources` section of the class repo. However the following summary of commands will "git" you far:
+
+| Command | Purpose |
+|---|---|
+| `git init` | Initializes a local repository. Used in lieu of cloning a GitHub repo. All local repos contain a hidden `.git` directory responsible for holding repo-related data. |
+| `git status` | Checks and reports on the status of your repo. It will inform you what changes to tracked (staged) files will be included in next commit, if there are any untracked files that have been added to the project or have changes, etc. |
+| `git add <path>` | Adds an entire directory or individual file (or files using a `*` as a wildcard) to the "staging area" for the next commit. |
+| `git add -A`| Adds all changes within the repo to the staging are for next commit. |
+| `git commit -m "<message>"`| Commits all staged changes to the local repo. The message should be in worded such that it describes what the commit **does**, not what it **did**. For example, "Style nav bar" instead of "Styled nav bar".|
+
+This following diagrams the flow of making changes to a repo:
+ 
+<img src="https://i.imgur.com/MGQoFYo.png">
+
+This is the basic git/GH workflow.  Things get a bit more complex when you start sharing code and manage larger codebases.
+
+> IMPORTANT: Do not create a repo within an existing repo!  If you find your computer very sluggish, it might be because you have "nested" repos. It's not uncommon for students to accidentally make their home folder (`~`) a repo - so start there if you suspect something is wrong.
+
+## Basic Workflow Pt. 1: When the repo owner trusts you.
+
+If you are a collaborator with "write" access to a repo, using git is pretty easy! 
+The basic workflow is to: 
+1. Clone (do this only once)
+2. Add, Commit, Push (every time you wish to save a change into the cloud)
+
+We can try it out by going to github.com and creating a new remote repository with a README.md.
+
+Once your remote repo is setup with a .md file, start by ```cd``` -ing in terminal to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
+
+Now, start by cloning the remote repository to your computer. As mentioned, you only do this once in order to have a local copy you can work with:
+
+```git clone https://........insert git repo url here.......```
+
+Type ```ls``` to verify that it was downloaded. If there was an error, check the syntax and try again.
+
+Once you've cloned the repo, you now have a new folder on your computer. This is called a local copy, and it is connected to the remote copy, as will see shortly. You can access the local copy using your Finder or file explorer or terminal. 
+
+Let's ```cd``` into our newly created repo folder, and let's check if we have a remote connection by doing:
+
+```git remote -v```
+
+You should see that your local copy has 2 remote connections to a remote location called <strong>origin</strong>. This is good. This is the way.
+
+Now, go ahead and make some changes (add some files, modify some files, or delete some files inside this folder). Now let's save our work using 3 git commands in sequence: add, commit, and push.
+
+###NOTE:
+Before you push things, you want to make sure your local copy is synchronized with the remote copy. After all, since the time that you've cloned it, other people may have made changes or edits to the repository. 
+
+Before you push your work, you will want to ```pull``` to download any work that other people have done by typing:
+```git pull origin main``` or
+```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master".
+
+Fun note about Vim: if you ever pull after someone's modified the remote, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To accept the merge and get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
+
+###Add, commit, push.
+
+Now that you've clone and made changes and synchronized, you can save your changes! Do the following.
+
+First, stage your changes to the staging area:
+```git add .
+```
+
+Second, commit(save) your work locally:
+```git commit -m 'deleting readme.md and adding a file'
+```
+
+Another fun note about Vim: if you ever omit the -m message, you will get into a screen with an ancient and powerful editor called <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">Vim</a>. Vim is famously difficult to exit. To get out of the screen, type ```:wq``` to <a href="https://itsfoss.com/how-to-exit-vim/">exit vim</a>.
+
+Third, push(save your work to the remote):
+```git push origin main``` or
+```git pull origin master``` depending on what branch is the default. By default, github.com creates a branch called "main" but github enterprise hasn't caught up and still calls it "master".
+
+Verify that you can see your changes on the github.com webpage. Every time you want to save changes from your local copy to your remote copy, whether you're deleting a file, or adding a file, or editing a file, you will do this 3-step process of:
+
+1. add
+2. commit
+3. push
+
+(after synchronizing with a pull, of course).
+
+## Basic Workflow Pt. 1: Practice
+
+Get into your deliverables repo, and follow the instructions above to clone it to a location where you <strong>don't already</strong> have a git repo setup. (Tip: You can do a ```git status``` to see if you are already in a git repo, or not. The messages are different if you are vs. if you aren't.)
+
+You should make a file with your name in it, and save it.
+
+
 ## Fork & Clone the Class Repo
 
 This would be a great time to get your computer connected to the class repo where lessons, labs, etc. will be stored.
@@ -78,32 +173,4 @@ Let's practice forking, cloning and saving work to a repo by setting up and comp
 8. Now's the time to provide your instructors with the link to your `daily-code-challenges` repo - please respond the to slack message with the URL in your address bar. Note that this only has to be done once.
 
 Congrats on solving the first daily code challenge, saving your changes to the local repo and pushing it to the cloud!
-
-## Summary of Common Git Commands
-
-By following along today and having done the pre-work, you should now be familiar with basic git commands.
-
-In SEI, you'll get plenty of practice using git, especially during project week because each of your projects will be stored in its own directory and will be made a git repository in that directory tracking the changes.
-
-> IMPORTANT: At some point, you will lose access to the class repo that's hosted on GA's GitHub Enterprise account. Not to worry.  You will of course have all of the materials and your work stored locally. Additionally, at the end of the cohort, you can simply add a new remote that links a repo on your personal GitHub account and push to it - that remote repo will then contain all materials and commits for your labs, practice exercises, code challenges, etc.
-
-For your convenience, there is a git command cheatsheet located in the `resources` section of the class repo. However the following summary of commands will "git" you far:
-
-| Command | Purpose |
-|---|---|
-| `git init` | Initializes a local repository. Used in lieu of cloning a GitHub repo. All local repos contain a hidden `.git` directory responsible for holding repo-related data. |
-| `git status` | Checks and reports on the status of your repo. It will inform you what changes to tracked (staged) files will be included in next commit, if there are any untracked files that have been added to the project or have changes, etc. |
-| `git add <path>` | Adds an entire directory or individual file (or files using a `*` as a wildcard) to the "staging area" for the next commit. |
-| `git add -A`| Adds all changes within the repo to the staging are for next commit. |
-| `git commit -m "<message>"`| Commits all staged changes to the local repo. The message should be in worded such that it describes what the commit **does**, not what it **did**. For example, "Style nav bar" instead of "Styled nav bar".|
-
-This following diagrams the flow of making changes to a repo:
- 
-<img src="https://i.imgur.com/MGQoFYo.png">
-
-This is the basic git/GH workflow.  Things get a bit more complex when you start sharing code and manage larger codebases.
-
-> IMPORTANT: Do not create a repo within an existing repo!  If you find your computer very sluggish, it might be because you have "nested" repos. It's not uncommon for students to accidentally make their home folder (`~`) a repo - so start there if you suspect something is wrong.
-
-
 
