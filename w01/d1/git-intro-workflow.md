@@ -202,7 +202,7 @@ $ git commit -m "Add amazing work..."
 
 Let's practice forking, cloning and saving work to a repo by setting up and completing today's Daily JS Code Challenge!
 
-1. First, browse [here](https://git.generalassemb.ly/toronto-sei/daily-code-challenges).
+1. First, browse [here](https://git.generalassemb.ly/sei-toronto/daily-code-challenges).
 2. Now let's follow the instructions and set up the repo.
 3. Move to the `daily-code-challenges` directory.
 4. Open in VS Code:  `$ code .`
