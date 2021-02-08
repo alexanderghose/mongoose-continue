@@ -121,7 +121,7 @@ Exercise 9:
 
 
 console.log('Exercise 9 Result:\n', allFoods);
-
+```
 
 ## Additional Resources
 
