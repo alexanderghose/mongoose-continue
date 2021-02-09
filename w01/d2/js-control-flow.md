@@ -166,7 +166,7 @@
 
 	```js
 	'hello' && 'goodbye'  // evaluates to 'goodbye'
-	0 || null  // evaluates to 0
+	0 && null  // evaluates to 0
 	```
 
 ---
