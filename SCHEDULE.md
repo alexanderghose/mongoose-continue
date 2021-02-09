@@ -34,7 +34,8 @@
     <a href="w01/d1/git-intro-workflow.md">Basic Git Workflow</a>(Clone, Add, Commit, Push)</br></br>
   </td>
   <td>
-    <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a>
+    <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a><br><br>
+    <a href="w01/d2/js-arrays-1.md">JS Arrays Pt. 1: Working with arrays</a>
   </td>
   <td>
     Install VSCode<br><br>
@@ -61,10 +62,9 @@
     <a href="w01/d1/js-arrays-lab-1.md">Lab: JS Arrays (Deliverable<br /> #1)</a> <strong>Due: Next Monday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
-    <a href="w01/d2/js-arrays-1.md">JS Arrays Pt. 1: Working with arrays</a></br></br>
     <a href="w01/d2/js-arrays-2.md">JS Arrays Pt. 2: Looping over Arrays</a></br></br>
-    <a href="w01/d2/git-intro-workflow.md">Git Pt. 2: Forking and Cloning</a></br></br>
-    <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
+    <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em><br><br>
+    <a href="w01/d2/git-intro-workflow.md">Git Pt. 2: Forking and Cloning</a>
   </td>
   <td>
     <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
