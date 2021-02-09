@@ -34,8 +34,8 @@
     <a href="w01/d1/git-intro-workflow.md">Basic Git Workflow</a>(Clone, Add, Commit, Push)</br></br>
   </td>
   <td>
-    <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a><br><br>
-    <a href="w01/d2/js-arrays-1.md">JS Arrays Pt. 1: Working with arrays</a>
+    <a href="w01/d2/js-arrays-1.md">JS Arrays Pt. 1: Working with arrays</a><br><br>
+    <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a>
   </td>
   <td>
     Install VSCode<br><br>
