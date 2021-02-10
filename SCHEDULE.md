@@ -73,7 +73,7 @@
   <td>
       <a href="w01/d4/js-objects.md">JS Objects</a></br></br>
       <a href="w01/d4/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
-      <a href="w01/d4/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
+      <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
