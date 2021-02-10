@@ -48,9 +48,9 @@
       <a href="w01/d4/js-functions-lab.md">Lab: JS Functions (Deliverable #4)</a><br /><strong>Due: Next Thursday</strong> <br /><em>(ideal: tonight)</em><br><br>
   </td>
   <td>
-    <a href="w01/d4/dom-intro.md">Intro to the DOM</a><br><br>
+    <a href="w01/d5/dom-intro.md">Intro to the DOM</a><br><br>
     DOM Lab Pt. 1<br><br>
-    <a href="w01/d4/dom-events.md">DOM Events</a><br><br>
+    <a href="w01/d5/dom-events.md">DOM Events</a><br><br>
     DOM Lab Pt. 2
   </td>
 </tr>
@@ -69,9 +69,9 @@
       <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong>
   </td>
   <td>
-      <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
-      <a href="w01/d3/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
-      <a href="w01/d1/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
+      <a href="w01/d4/js-objects.md">JS Objects</a></br></br>
+      <a href="w01/d4/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
+      <a href="w01/d4/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
