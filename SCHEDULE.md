@@ -66,11 +66,11 @@
     <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
-      <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong><br><br>
-      <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
-      <a href="w01/d3/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a>
+      <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong>
   </td>
   <td>
+      <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
+      <a href="w01/d3/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
       <a href="w01/d1/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
