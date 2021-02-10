@@ -19,53 +19,13 @@ This guide will help you with:
 
 ## Client-Side MVC Architectural Approach
 
-**Model-View-Controller (MVC)** is a popular software architectural pattern that is used to organize code in both client and server applications.
+**Model-View-Controller (MVC)** is a popular software architectural pattern that is used to organize code in both client and server applications. The idea is to separate:
 
-The following diagrams a typical client-side MVC architecture:
-
-<img src="https://i.imgur.com/jIY7mO5.png">
-
-Let's briefly review the Model, View and Controller components...
-
-#### Model
-
-The **Model** refers to the application's data that needs to be tracked/remembered - this data is often referred to as the application's **state**.
-
-**Data** is the _single-source of truth_ in an executing application!
- 
-By following a "data-centric" approach, developers can more easily test the application's logic - in fact, we can test out much of the app in the console (assuming you keep your functions and state in global scope while developing the app)! For example, you can type something like `getWinner()` in the console to check what value is being returned from that function. 
-
-An easy mistake new programmers make is using the **DOM** to hold state - instead, remember to use variables to hold **all** data that needs to be tracked during runtime.
-
-By following this approach, a developer can re-use much of an application's code  if/when the application needs to be ported to other platforms such as mobile and desktop.
-
-#### View
-
-The **View** is what the user sees and interacts with.
-
-In a browser app, the View consists of the **DOM** elements created using HTML, CSS and JavaScript.
-
-The View can be made to "listen" for user actions by adding _event listeners_ to DOM elements for a multitude of [DOM events](https://developer.mozilla.org/en-US/docs/Web/Events). 
-
-#### Controller
-
-The **Controller** is the bulk of your app's JavaScript, excluding the state variables (which represent the Model as described above).
-
-The Controller provides the glue between the Model and View (notice how the Model and View don't "know" about each other).
-
-In a browser app, it is the controller that adds event listeners to the View (DOM elements).
-
-When an event occurs, e.g., the user clicks something, the Controller:
-
-1. Updates the Model variables (state).
-2. Updates the View (DOM), using the data contained in the Model variables (state).
-
-#### Summary
-
-To summarize, the MVC architectural pattern organizes and structures code in a way that enables:
-
-- Code to be more testable, reusable and extendable.
-- Separation of the View (display) logic and business (application) logic. For example, you might decide to model a game of tic-tac-toe using the values of `1`, `-1` or `null` to represent whether a square holds Player X, Player O, or nobody, respectively.  However, when it comes time to transfer the app's state to the DOM, you can visualize the state anyway you want, e.g., a value of `1` is "rendered" with a certain image, etc.
+1. the UI code <strong>(view)</strong> such as ```<button>```s and ```<input>```s, and
+2. the actual state of the game <strong>(model)</strong> such as the current high score, the current secret word, or the current number of players - ie., your variables, and
+3. the code that connects the variables with the UI <strong>(controller)</strong> - eg., event listener code. When an event occurs, e.g., the user clicks something, the Controller:
+- Updates the variables (state) -- for example, ```currentScore += 1```
+- Updates the View (DOM), using the data contained in the Model variables (state) --- for example, set the highscore visually from the highscore variable: ```div3.innerHTML = currentScore```
 
 ## Overall Application Flow
 
