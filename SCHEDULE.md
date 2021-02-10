@@ -49,9 +49,8 @@
   </td>
   <td>
     <a href="w01/d5/dom-intro.md">Intro to the DOM</a><br><br>
-    DOM Lab Pt. 1<br><br>
-    <a href="w01/d5/dom-events.md">DOM Events</a><br><br>
-    DOM Lab Pt. 2
+    <a href="w01/d5/dom-practice-lab-1.md">DOM Lab Part 1 (Deliverable #5)</a></br><strong>Due: Next Friday</strong><br><br>
+    <a href="w01/d5/dom-events.md">DOM Events</a>
   </td>
 </tr>
 
@@ -73,11 +72,13 @@
   <td>
       <a href="w01/d4/js-objects.md">JS Objects</a></br></br>
       <a href="w01/d4/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
-      <a href="w01/d4/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
+      <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
-    Tic Tac Toe Lab
+    <a href="w01/d5/dom-practice-lab-2.md">DOM Lab Part 2 (Deliverable #6)</a></br><strong>Due: Next Friday</strong></br></br>
+    <a href="w01/d5/guide-to-building-a-browser-game.md">Build a Browser Game</a><br><br>
+    <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Next Friday</strong>
   </td>
 </tr>
 
