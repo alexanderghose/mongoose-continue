@@ -1,10 +1,10 @@
 ![](https://lh4.ggpht.com/bjuK8Xe0G8WJ1583yP_5RV6_ylS-c_MsF2O3g4XjZ4Dm4ttgWmcu1BqqUrZyI9uDtMk=w300)
-# Tic-Tac-Toe Weekend
+# Partner Lab: Tic-Tac-Toe Weekend
 ---
 
 ## Objective
 
-Build a Tic-Tac-Toe game incorporating the web technologies and techniques you've worked with thus far:
+With your partner, build a Tic-Tac-Toe game incorporating the web technologies and techniques you've worked with thus far:
 
 - HTML
 - CSS
@@ -41,7 +41,7 @@ Submit the link to your repo using the Deliverable Submission form linked to in 
 
 As always...
 
-1. `git add -A`
+1. `git add -A` or `git add .`
 
 2. `git commit -m "Msg stating what the commit WILL do (present, not past-tense)"`
 
