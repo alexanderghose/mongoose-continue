@@ -49,7 +49,7 @@
   </td>
   <td>
     <a href="w01/d5/dom-intro.md">Intro to the DOM</a><br><br>
-    <a href="w01/d5/dom-practice-lab-1.md">DOM Lab Part 1 (Deliverable #5)</a></br><strong>Due: Next Thursday</strong><br><br>
+    <a href="w01/d5/dom-practice-lab-1.md">DOM Lab Part 1 (Deliverable #5)</a></br><strong>Due: Next Friday</strong><br><br>
     <a href="w01/d5/dom-events.md">DOM Events</a>
   </td>
 </tr>
