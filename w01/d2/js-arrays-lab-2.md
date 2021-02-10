@@ -104,7 +104,7 @@ console.log('Exercise 2 Result:\n', numbers1);
   - (Hint: use a "classic for loop" - For this question, you may assume the array has exactly 10 elements, so you can iterate from index 0 to index 9)
 */
 
-// Complete Exercise 6 below...
+// Complete Exercise 7 below...
 
 /*
  Exercise 8: classic for loop
@@ -113,7 +113,16 @@ console.log('Exercise 2 Result:\n', numbers1);
   - (Hint 2: you can iterate from index 0 to index animals.length and print)
 */
 
-// Complete Exercise 6 below...
+// Complete Exercise 8 below...
+
+/*
+ Exercise 9: try something fun!
+  - Declare an array of some kind - eg., an array of animals? an array of fruits? an array of arrays?
+  - Think about some kind of operation you'd like to do on the array, and try to implement it using any of the loop structures we've learned.
+*/
+
+// Complete Exercise 9 below...
+
 
 /*
 Exercise 10: 
