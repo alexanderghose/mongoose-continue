@@ -76,9 +76,9 @@
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
-    <a href="w01/d5/dom-events-lab.md">DOM Lab Part 2 (Deliverable #6)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: Saturday.)</em></br></br>
+    <a href="w01/d5/dom-events-lab.md">DOM Lab Part 2 (Deliverable #6)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: Saturday. This is one of the most important labs for Project 1)</em></br></br>
     <a href="w01/d5/guide-to-building-a-browser-game.md">Build a Browser Game</a><br><br>
-    Partner Lab:<a href="w01/d5/tic-tac-toe"> Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: this weekend)</em>
+    Partner Lab:<a href="w01/d5/tic-tac-toe"> Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: this weekend. This is one of the most important labs for Project 1)</em>
   </td>
 </tr>
 
