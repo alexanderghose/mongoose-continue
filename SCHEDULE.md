@@ -49,7 +49,7 @@
   </td>
   <td>
     <a href="w01/d5/dom-intro.md">Intro to the DOM</a><br><br>
-    <a href="w01/d5/dom-practice-lab-1.md">DOM Lab Part 1 (Deliverable #5)</a></br><strong>Due: Next Friday</strong><br><br>
+    <a href="w01/d5/dom-practice-lab-1.md">DOM Lab Part 1 (Deliverable #5)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: this weekend)</em><br><br>
     <a href="w01/d5/dom-events.md">DOM Events</a>
   </td>
 </tr>
@@ -76,9 +76,9 @@
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
-    <a href="w01/d5/dom-events-lab.md">DOM Lab Part 2 (Deliverable #6)</a></br><strong>Due: Next Friday</strong></br></br>
+    <a href="w01/d5/dom-events-lab.md">DOM Lab Part 2 (Deliverable #6)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: this weekend)</em></br></br>
     <a href="w01/d5/guide-to-building-a-browser-game.md">Build a Browser Game</a><br><br>
-    <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Next Friday</strong>
+    <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Next Friday</strong><br /><em>(ideal: this weekend)</em>
   </td>
 </tr>
 
