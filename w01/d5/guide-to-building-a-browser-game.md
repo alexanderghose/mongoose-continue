@@ -23,7 +23,7 @@ This guide will help you with:
 
 1. the UI code <strong>(view)</strong> such as ```<button>```s and ```<input>```s, and
 2. the actual state of the game <strong>(model)</strong> such as the current high score, the current secret word, or the current number of players - ie., your variables, and
-3. the code that connects the variables with the UI <strong>(controller)</strong> - eg., event listener code. When an event occurs, e.g., the user clicks something, the Controller: <br> Updates the variables (state) -- for example, ```currentScore += 1```, and<br>Updates the View (DOM), using the data contained in the Model variables (state) --- for example, set the highscore visually from the highscore variable: ```div3.innerHTML = currentScore```
+3. the code that connects the variables with the UI <strong>(controller)</strong> - eg., event listener code. When an event occurs, e.g., the user clicks something, the Controller: <br> - Updates the variables (state) -- for example, ```currentScore += 1```, and<br>- Updates the View (DOM), using the data contained in the Model variables (state) --- for example, set the highscore visually from the highscore variable: ```div3.innerHTML = currentScore```
 
 ## Overall Application Flow
 
