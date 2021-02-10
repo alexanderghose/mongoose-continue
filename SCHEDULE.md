@@ -38,20 +38,21 @@
     <a href="w01/d2/js-control-flow.md">Intro to Control Flow</a>
   </td>
   <td>
-    Install VSCode<br><br>
+    Install <a href="https://code.visualstudio.com/download">VSCode</a><br><br>
     <a href="w01/d3/intro-to-html.md">Intro to HTML</a></br></br>
     <a href="w01/d3/intro-to-css.md">Intro to CSS</a></br></br>
+    <a href="w01/d3/git-intro-workflow.md">Git Pt. 2: Forking and Cloning</a><br><br>
     <a href="w01/d3/css-selectors-lab">CSS Selectors Lab (Deliverable #3)</a><br /> <strong>Due: Next Wednesday</strong>
   </td>
   <td>
-      <a href="w01/d1/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
       <a href="w01/d4/js-functions-and-scope.md">JS Functions & Scope</a></br></br>
       <a href="w01/d4/js-functions-lab.md">Lab: JS Functions (Deliverable #4)</a><br /><strong>Due: Next Thursday</strong> <br /><em>(ideal: tonight)</em><br><br>
-      <a href="w01/d4/dom-intro.md">Intro to the DOM</a> and <a href="w01/d4/dom-events.md">DOM Events</a>
   </td>
   <td>
-    <a href="w01/d5/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
-    <a href="w01/d5/css-flexbox-grid-lab">CSS Flexbox & Grid Lab (Deliverable #5)</a></br><strong>Due: Next Friday</strong>    
+    <a href="w01/d4/dom-intro.md">Intro to the DOM</a><br><br>
+    DOM Lab Pt. 1<br><br>
+    <a href="w01/d4/dom-events.md">DOM Events</a><br><br>
+    DOM Lab Pt. 2
   </td>
 </tr>
 
@@ -63,20 +64,18 @@
   </td>
   <td>
     <a href="w01/d2/js-arrays-2.md">JS Arrays Pt. 2: Looping over Arrays</a></br></br>
-    <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em><br><br>
-    <a href="w01/d2/git-intro-workflow.md">Git Pt. 2: Forking and Cloning</a>
+    <a href="w01/d2/js-arrays-lab-2.md">Lab: Looping over Arrays (Deliverable<br /> #2)</a> <strong>Due: Next Tuesday</strong> <br /><em>(ideal: tonight)</em>
   </td>
   <td>
-    <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
-    <a href="w01/d3/js-objects-practice.md">JS Objects Extra Practice Lab</a><br><br>
+      <a href="w01/d3/js-objects.md">JS Objects</a></br></br>
+      <a href="w01/d3/js-objects-practice.md">JS Objects Extra Practice Lab</a>
   </td>
   <td>
-   
-  <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong><br /><br />
+      <a href="w01/d1/git-intro-workflow.md">Git Pt. 3: Branching</a></br></br>
+      <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
-    <a href="w01/d5/responsive-design.md">Responsive Design</a></br></br>
-    <a href="w01/d5/media-queries-lab.md">Media Queries Lab</a>
+    Tic Tac Toe Lab
   </td>
 </tr>
 
