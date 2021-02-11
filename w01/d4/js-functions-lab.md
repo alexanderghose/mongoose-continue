@@ -24,7 +24,7 @@ Complete at least 9 of the exercises below. The first 6 are optional questions t
 
 Be sure to number each function with a comment above it.
 
-## Part 1: 6 Questions to build intuition about functions (These are optional to attempt - but will count if you do them!)
+## Part 1: 6 Questions to build intuition about functions (These are optional to attempt - but will count toward your 9 if you do them!)
 
 1. <strong>(Concept: Calling a function that has already been defined.)</strong><br> The following function definition defines a function called `pokemon_contains` that will tell you if a single `incoming_letter` passed into this function exists in the word "pokemon". This function returns a <strong>boolean</strong> (ie., True or False). Your task is to first, copy this function and then <strong>call</strong> this function by passing in the letter "k". Store the result of this function call in a variable called result1. Print out the result. Secondly, <strong>call</strong> this function by passing in the letter "o". Store the result of this function call in a variable called result2. Print out the result.
 
