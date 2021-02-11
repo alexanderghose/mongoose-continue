@@ -113,7 +113,7 @@ console.log("The answer is..." + answer)
 6. <strong>(Concept: Defining a function).</strong><br> First, Define a function called `greaterThan5` that accepts one parameter will return true if the incoming input is greater than 5, and returns false if the incoming is less than or equal to 5. Secondly, call this function at least 3 times and print out the result of each call separately.
 
 
-## Part 2: 4 Questions to test you. (These are mandatory to at least attempt. Even if you don't get them, try to get as close as you can!)
+## Part 2: 9 Questions to test you. (In total you must complete at least 9 exercises across parts 1 and parts 2. We recommend you try them all though to test your weaknesses!)
 
 7. (_completed above_) Define a function, as a function declaration, `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression -  the Math.max method is not allowed.
 
