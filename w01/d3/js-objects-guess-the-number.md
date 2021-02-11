@@ -4,7 +4,7 @@
 
 ## Intro
 
-Before you try this lab, make sure you can do these questions in our <a href="w01/d3/js-objects-practice.md">objects practice lab</a> first.
+Before you try this lab, make sure you can do these questions in our <a href="js-objects-practice.md">objects practice lab</a> first.
 
 This lab is optional and only for those who want a challenge! It will provide you some more challenging practice working with JavaScript objects, plus some additional practice working with arrays.
 
