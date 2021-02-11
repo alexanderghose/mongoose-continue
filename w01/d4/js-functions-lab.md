@@ -94,7 +94,7 @@ let result6 = multiply(5,6)
 console.log(result6)
 ```
 
-4. <strong>(Concept: Functions are not executed until called.)</strong><br>If we run the program below, in what order will the 3 print statements be executed? Before you submit your answer, verify your theory by running your code, and also by trying it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a>.
+4. <strong>(Concept: Functions are not executed until called.)</strong><br>If we run the program below, in what order will the 5 console.log statements be executed? Write down your theory as a js comment, and then verify your theory by running your code, and also by trying it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a>. Was your theory correct?
 
 ```js
 function multiplication(a,b) {
@@ -105,7 +105,10 @@ function multiplication(a,b) {
 
 console.log("Let's Multiply stuff...")
 let answer = multiplication(5,6)
+console.log("Let's Multiply more stuff...")
+let answer2 = multiplication(5,6)
 console.log("The answer is..." + answer)
+console.log("The answer is...", answer2)
 ```
 
 5. <strong>(Concept:Define a function).</strong><br> First, define a function called `subtract` that accepts two parameters and will subtract the second parameter from the first. Secondly, call this function at least two times and plug in various numbers, and print out the result both times. If your code doesn't work, try it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a> to help you debug it.
