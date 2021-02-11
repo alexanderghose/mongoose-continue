@@ -20,7 +20,7 @@ This lab is **a deliverable**.
 
 #### Requirements
 
-Define and code the functions below.
+Complete at least 9 of the exercises below. The first 6 are optional questions to build intuition about functions, but will count if you do them.
 
 Define the functions using the approach as specified (either as a function expression or declaration).
 
@@ -28,10 +28,12 @@ Be sure to number each function with a comment above it.
 
 After each function, call it **at least once** and `console.log` the results.
 
-For example, here's the first function, our gift to you:
+For example, here's the 7th function, our totally random gift to you:
 
 ```js
-// 1.
+// 6. ....
+
+// 7.
 function maxOfTwoNumbers(x, y) {
   if (x >= y) {
     return x;
@@ -45,29 +47,91 @@ function maxOfTwoNumbers(x, y) {
 
 console.log(maxOfTwoNumbers(3, 9));
 
-// 2.
+// 8.
 ...
 ```
 
 Here are the functions:
 
-1. (_completed above_) Define a function, as a function declaration, `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression -  the Math.max method is not allowed.
+## Part 1: 6 Questions to build intuition about functions (These are optional to attempt - but will count if you do them!)
 
-2. Define a function, as a function expression, `maxOfThree` that takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
+1. <strong>(Concept: Calling a function that has already been defined.)</strong><br> The following function definition defines a function called `pokemon_contains` that will tell you if a single `incoming_letter` passed into this function exists in the word "pokemon". This function returns a <strong>boolean</strong> (ie., True or False). Your task is to first, copy this function and then <strong>call</strong> this function by passing in the letter "k". Store the result of this function call in a variable called result1. Print out the result. Secondly, call this function by passing in the letter "o". Store the result of this function call in a variable called result2. Print out the result.
 
-3. Define a function, as a function declaration, `isCharAVowel` that takes a character as an argument and returns true if it is a vowel, false otherwise.
+	```js
+	function pokemonContains(incoming_letter) {
+		if ("pokemon".includes(incoming_letter)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+	```
 
-4. Define a function, as a function expression, `sumArray` that takes an array of numbers and returns the sum of those numbers. For example, `sumArray([2, 4, 5]);` would return `11`.
+2. <strong>(Concept: Calling a function that has already been defined.)</strong><br> Below we are defining a function to sum two numbers. Right below that, we are calling this function two times, but we have made a mistake while calling the function the first time. What's the mistake? Fix it.
 
-5. Define a function, as a function declaration, `multiplyArray` that takes an array of numbers and returns the product those numbers. For example, `multiplyArray([2, 4, 5]);` would return `40`.
+	```js
+  function sum_two(a,b) {
+      let answer = a + b
+      return answer
+  }
+		
+	let result3 = sum_two(a,b)
+	console.log(result3)
+	let result4 = sum_two(5,6)
+	console.log(result4)
+	```
+  
+3. <strong>(Concept: Defining a function)</strong><br> Below we are defining a function to multiply two numbers. After that, we are calling this function two times, and storing the results in variables. But this is failing due to a mistake (actually, two) while defining the function. What's the mistake? Fix it.
 
-6. Define a function, as a function expression, `numArgs` that returns the number of arguments passed to the function when called.
+	```js
+    function multiply(num1,num2) {
+      let answer = a*b
+    }
 
-7. Define a function, as a function declaration, `reverseString` that takes a string, reverses the characters, and returns it. For example, `reverseString('rockstar');` would return the string "ratskcor".
+    let result5 = multiply(10,10)
+    console.log(result5)
+    let result6 = multiply(5,6)
+    console.log(result6)
+	```
 
-8. Define a function, as a function expression, `longestStringInArray` that takes an array of strings as an argument and returns the length of the longest string.
+4. <strong>(Concept: Functions are not executed until called.)</strong><br>If we run the program below, in what order will the 3 print statements be executed? Before you submit your answer, verify your theory by running your code, and also by trying it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a>.
 
-9. Define a function, as a function declaration, `stringsLongerThan` that takes an array of strings and a number as arguments; and returns an array of the strings that are longer than the number passed in. For example, `stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3);` would return `["hello", "morning"]`.
+  ```js
+  function multiplication(a,b) {
+      let myAnswer = a*b
+      console.log("Calculating...")
+      return myAnswer
+  }
+
+  console.log("Let's Multiply stuff...")
+  let answer = multiplication(5,6)
+  console.log("The answer is..." + answer)
+  ```
+
+5. <strong>(Concept:Define a function).</strong><br> First, define a function called `subtract` that accepts two parameters and will subtract the second parameter from the first. Secondly, call this function at least two times and plug in various numbers, and print out the result both times. If your code doesn't work, try it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a> to help you debug it.
+
+6. <strong>(Concept: Defining a function).</strong><br> First, Define a function called `greaterThan5` that accepts one parameter will return true if the incoming input is greater than 5, and returns false if the incoming is less than or equal to 5. Secondly, call this function at least 3 times and print out the result of each call separately.
+
+
+## Part 2: 4 Questions to test you. (These are mandatory to at least attempt. Even if you don't get them, try to get as close as you can!)
+
+7. (_completed above_) Define a function, as a function declaration, `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression -  the Math.max method is not allowed.
+
+8. Define a function, as a function expression, `maxOfThree` that takes three numbers as arguments and returns the largest of them. Again, the Math.max method is not allowed.
+
+9. Define a function, as a function declaration, `isCharAVowel` that takes a character as an argument and returns true if it is a vowel, false otherwise.
+
+10. Define a function, as a function expression, `sumArray` that takes an array of numbers and returns the sum of those numbers. For example, `sumArray([2, 4, 5]);` would return `11`.
+
+11. Define a function, as a function declaration, `multiplyArray` that takes an array of numbers and returns the product those numbers. For example, `multiplyArray([2, 4, 5]);` would return `40`.
+
+12. Define a function, as a function expression, `numArgs` that returns the number of arguments passed to the function when called.
+
+13. Define a function, as a function declaration, `reverseString` that takes a string, reverses the characters, and returns it. For example, `reverseString('rockstar');` would return the string "ratskcor".
+
+14. Define a function, as a function expression, `longestStringInArray` that takes an array of strings as an argument and returns the length of the longest string.
+
+15. Define a function, as a function declaration, `stringsLongerThan` that takes an array of strings and a number as arguments; and returns an array of the strings that are longer than the number passed in. For example, `stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3);` would return `["hello", "morning"]`.
 
 ### Solution Code
 
