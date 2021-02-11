@@ -55,58 +55,58 @@ Here are the functions:
 
 ## Part 1: 6 Questions to build intuition about functions (These are optional to attempt - but will count if you do them!)
 
-1. <strong>(Concept: Calling a function that has already been defined.)</strong><br> The following function definition defines a function called `pokemon_contains` that will tell you if a single `incoming_letter` passed into this function exists in the word "pokemon". This function returns a <strong>boolean</strong> (ie., True or False). Your task is to first, copy this function and then <strong>call</strong> this function by passing in the letter "k". Store the result of this function call in a variable called result1. Print out the result. Secondly, call this function by passing in the letter "o". Store the result of this function call in a variable called result2. Print out the result.
+1. <strong>(Concept: Calling a function that has already been defined.)</strong><br> The following function definition defines a function called `pokemon_contains` that will tell you if a single `incoming_letter` passed into this function exists in the word "pokemon". This function returns a <strong>boolean</strong> (ie., True or False). Your task is to first, copy this function and then <strong>call</strong> this function by passing in the letter "k". Store the result of this function call in a variable called result1. Print out the result. Secondly, <strong>call</strong> this function by passing in the letter "o". Store the result of this function call in a variable called result2. Print out the result.
 
-	```js
-	function pokemonContains(incoming_letter) {
-		if ("pokemon".includes(incoming_letter)) {
-      return true;
-    } else {
-      return false;
-    }
+```js
+function pokemonContains(incomingLetter) {
+  if ("pokemon".includes(incomingLetter)) {
+    return true;
+  } else {
+    return false;
   }
-	```
+}
+```
 
 2. <strong>(Concept: Calling a function that has already been defined.)</strong><br> Below we are defining a function to sum two numbers. Right below that, we are calling this function two times, but we have made a mistake while calling the function the first time. What's the mistake? Fix it.
 
-	```js
-  function sum_two(a,b) {
-      let answer = a + b
-      return answer
-  }
+```js
+function sumTwo(a,b) {
+  let answer = a + b
+  return answer
+}
 		
-	let result3 = sum_two(a,b)
-	console.log(result3)
-	let result4 = sum_two(5,6)
-	console.log(result4)
-	```
+let result3 = sumTwo(a,b)
+console.log(result3)
+let result4 = sumTwo(5,6)
+console.log(result4)
+```
   
 3. <strong>(Concept: Defining a function)</strong><br> Below we are defining a function to multiply two numbers. After that, we are calling this function two times, and storing the results in variables. But this is failing due to a mistake (actually, two) while defining the function. What's the mistake? Fix it.
 
-	```js
-    function multiply(num1,num2) {
-      let answer = a*b
-    }
+```js
+function multiply(num1,num2) {
+  let answer = a*b
+}
 
-    let result5 = multiply(10,10)
-    console.log(result5)
-    let result6 = multiply(5,6)
-    console.log(result6)
-	```
+let result5 = multiply(10,10)
+console.log(result5)
+let result6 = multiply(5,6)
+console.log(result6)
+```
 
 4. <strong>(Concept: Functions are not executed until called.)</strong><br>If we run the program below, in what order will the 3 print statements be executed? Before you submit your answer, verify your theory by running your code, and also by trying it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a>.
 
-  ```js
-  function multiplication(a,b) {
-      let myAnswer = a*b
-      console.log("Calculating...")
-      return myAnswer
-  }
+```js
+function multiplication(a,b) {
+  let myAnswer = a*b
+  console.log("Calculating...")
+  return myAnswer
+}
 
-  console.log("Let's Multiply stuff...")
-  let answer = multiplication(5,6)
-  console.log("The answer is..." + answer)
-  ```
+console.log("Let's Multiply stuff...")
+let answer = multiplication(5,6)
+console.log("The answer is..." + answer)
+```
 
 5. <strong>(Concept:Define a function).</strong><br> First, define a function called `subtract` that accepts two parameters and will subtract the second parameter from the first. Secondly, call this function at least two times and plug in various numbers, and print out the result both times. If your code doesn't work, try it in the <a href="http://pythontutor.com/javascript.html#mode=edit">js visualizer</a> to help you debug it.
 
