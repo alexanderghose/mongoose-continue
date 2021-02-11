@@ -22,36 +22,7 @@ This lab is **a deliverable**.
 
 Complete at least 9 of the exercises below. The first 6 are optional questions to build intuition about functions, but will count if you do them.
 
-Define the functions using the approach as specified (either as a function expression or declaration).
-
 Be sure to number each function with a comment above it.
-
-After each function, call it **at least once** and `console.log` the results.
-
-For example, here's the 7th function, our totally random gift to you:
-
-```js
-// 6. ....
-
-// 7.
-function maxOfTwoNumbers(x, y) {
-  if (x >= y) {
-    return x;
-  } else {
-    return y;
-  }
-  
-  // or more "elegantly" using the fantastic ternary expression!
-  // return  x >= y ? x : y;
-}
-
-console.log(maxOfTwoNumbers(3, 9));
-
-// 8.
-...
-```
-
-Here are the functions:
 
 ## Part 1: 6 Questions to build intuition about functions (These are optional to attempt - but will count if you do them!)
 
@@ -117,6 +88,39 @@ console.log("The answer is...", answer2)
 
 
 ## Part 2: 9 Questions to test you. (In total you must complete at least 9 exercises across parts 1 and parts 2. We recommend you try them all though to test your weaknesses!)
+
+#### Part 2 requirements
+Define the functions using the approach as specified (either as a function expression or declaration).
+
+After each function, call it **at least once** and `console.log` the results.
+
+For example, here's the 7th function, our gift to you:
+
+```js
+// 6. ....
+
+// 7.
+function maxOfTwoNumbers(x, y) {
+  if (x >= y) {
+    return x;
+  } else {
+    return y;
+  }
+  
+  // or more "elegantly" using the fantastic ternary expression!
+  // return  x >= y ? x : y;
+}
+
+console.log(maxOfTwoNumbers(3, 9));
+
+// 8.
+...
+```
+
+Be sure to number each function with a comment above it.
+
+Here are the functions:
+
 
 7. (_completed above_) Define a function, as a function declaration, `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest of them. If they are the same, return that number. Use the if-else construct or a ternary expression -  the Math.max method is not allowed.
 
