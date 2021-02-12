@@ -81,7 +81,7 @@ let btn1 = document.getElementById("btn1")
 
 Test out your code by pressing the "click me" button and watching the counter go up!
 
-If you get stuck, you can find a solution <a href="https://repl.it/@alexanderghose/ClickCounter#script.js">here</a>. (But try not to peek!)
+
 
 <br><br>
 
@@ -155,4 +155,4 @@ Test out your code by typing something in the ```<input>``` and pressing the "Tr
 
 Test that it works!
 
-If you get stuck, you can find a solution <a href="https://repl.it/@alexanderghose/MorseCode">here</a>. (But try not to peek!)
+
