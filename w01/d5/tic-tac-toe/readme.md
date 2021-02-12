@@ -11,7 +11,7 @@ With your partner, build a Tic-Tac-Toe game incorporating the web technologies a
 - JavaScript
 - DOM Manipulation
 
-Use the <a href="guide-to-building-a-browser-game.md">Guide to Build a browser game</a> for help!
+Use the <a href="../guide-to-building-a-browser-game.md">Guide to Build a browser game</a> for help!
 
 ## This Assignment is a Deliverable
 
@@ -65,7 +65,7 @@ As always...
 
 ### Getting Started / Hints
 
-- **Follow the approach as described in the <a href="guide-to-building-a-browser-game.md">_Guide on How to Build a Browser Game_</a>**.
+- **Follow the approach as described in the <a href="../guide-to-building-a-browser-game.md">_Guide on How to Build a Browser Game_</a>**.
 - Create an `index.html` page.
 - Create and include in your `index.html` page, `main.css` and `main.js` files.
 - Start by writing the HTML and CSS that displays a 3x3 grid and the `reset game` button.
