@@ -11,13 +11,15 @@ With your partner, build a Tic-Tac-Toe game incorporating the web technologies a
 - JavaScript
 - DOM Manipulation
 
+Use the <a href="guide-to-building-a-browser-game.md">Guide to Build a browser game</a> for help!
+
 ## This Assignment is a Deliverable
 
 Commit and push the code to a new repo in your personal GitHub account - see below on how to create a new repo.
 
 Submit the link to your repo using the Deliverable Submission form linked to in the class repo's README.
 
-## How to Create a New Repo
+## Github Step 1: How to Create a New Repo
 
 1. Browse to your personal GitHub account, click on `Repositories` and click the green `[New]` button.
 
@@ -37,7 +39,7 @@ Submit the link to your repo using the Deliverable Submission form linked to in 
 	
 5. Lastly, move into the the newly created folder named the same as the repo, e.g., `cd tic-tac-toe`.  You're ready to start coding!
 
-#### Saving Your Work to the Repo
+#### Github Step 2: Saving Your Work to the Repo
 
 As always...
 
@@ -53,10 +55,17 @@ As always...
 - Every click will alternate between marking an `X` and `O`.
 - Once occupied with an `X` or `O`, the cell cannot be played again.
 - Provide a `Reset Game` button that will clear the contents of the board.
+- You can definitely research implementing DOM Events like "click" functionality in general, but:
+- Please <strong>do NOT use an online tutorial on how to make Tic Tac Toe</strong>, and we require that you <strong>avoid following an online tutorial on TTT</strong>. Not only is plagiarism not permitted, but following a tutorial has several negatives:
+	1. it will decrease your self-confidence because you will think you have to rely on how <strong>they</strong> do it.
+	2. you may not end up learning how to build a browser game. 
+	3. Tutorials often use complex code, at a level we're not at yet. They can use needlessly confusing structures (spread operator! objects inside objects! 3D arrays!) and may influence you into thinking the task is harder than it really is. 
+	4. Try to figure it out on your own with your partner. <strong>The process of struggling through a task is one of the most important things, and the end result is not necessarily as important.</strong>
+
 
 ### Getting Started / Hints
 
-- **Follow the approach as described in the _Guide on How to Build a Browser Game_**.
+- **Follow the approach as described in the <a href="guide-to-building-a-browser-game.md">_Guide on How to Build a Browser Game_</a>**.
 - Create an `index.html` page.
 - Create and include in your `index.html` page, `main.css` and `main.js` files.
 - Start by writing the HTML and CSS that displays a 3x3 grid and the `reset game` button.
