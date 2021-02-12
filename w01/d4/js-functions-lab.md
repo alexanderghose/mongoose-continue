@@ -140,10 +140,6 @@ Here are the functions:
 
 15. Define a function, as a function declaration, `stringsLongerThan` that takes an array of strings and a number as arguments; and returns an array of the strings that are longer than the number passed in. For example, `stringsLongerThan(['say', 'hello', 'in', 'the', 'morning'], 3);` would return `["hello", "morning"]`.
 
-### Solution Code
-
-[Try not to peek!](https://repl.it/@jim_clark/JS-Functions-Lab)
-
 ## Additional Resources
 
 - [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
