@@ -119,7 +119,7 @@ Typically, pseudocode does not have to be as detailed as the following - it is h
 
 4) Upon loading the app should:
 	4.1) Initialize the state variables:
-		4.1.1) Initialize "board" array or "rows" array or 9 "squares" variables to nulls to represent empty squares.
+		4.1.1) Initialize "board" array or "rows" array or 9 "squares" variables to somehow represent empty squares.
 		4.1.2) Initialize turn variable representing whose turn it is first. We can use numbers 1 and -1 to represent the two players, or we can use "O" and "X" as strings.
 		4.1.3) Initialize our winner variable to indicate that there is no winner or tie yet and the game is in progress. Decide how this variable will work. Maybe "-1" can mean that "O" has won? Or maybe "O" can represent that "O" has won. Maybe "T" can represent there is a tie. Maybe "?" or "None" or "null" can mean there is no winner or tie yet. We have lots of options.
 	4.2) Render those state variables to the page:
