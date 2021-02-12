@@ -104,7 +104,7 @@ Since most web apps are event-driven by nature. Coding an event-driven program g
 
 Now we can start adding as many detailed steps as desired.
 
-Typically, pseudocode does not have to be as detailed as the following - it is highly detailed here to help you as much as possible:
+Typically, pseudocode does not have to be as detailed as the following - it is highly detailed here to help you as much as possible. It's you basically trying to write out how your game will work based on your understanding of the computer state and user interactions:
 
 ```
 1) Define required constants:
@@ -115,7 +115,7 @@ Typically, pseudocode does not have to be as detailed as the following - it is h
 	2.3) Use a variable to represent three different possibilities - player that won, a tie, or game in play.
 
 3) Store DOM elements on the page that will be accessed in code more than once in variables to make code more concise, readable and performant:
-	3.1) Store the 9 DOM elements that represent the squares on the page.
+	3.1) Depending on our choice of how we're representing the state of the game, we can either store/cache the 9 DOM elements (eg., divs) that represent the squares on the page, or we can store the div containing the 2D array. For example, let square1 = document.getElementById("square1") or let myGrid = document.getElementById("board") or let winMessageDiv = document.getElementById("winMessageDiv"), so that we can later just modify the square visually by doing things like myGrid.addEventListener("click", ...)  or   square1.innerHTML = "X" or any other UI update.
 
 4) Upon loading the app should:
 	4.1) Initialize the state variables:
