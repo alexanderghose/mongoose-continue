@@ -155,4 +155,4 @@ Test out your code by typing something in the ```<input>``` and pressing the "Tr
 
 Test that it works!
 
-
+If you get stuck, you can find a solution <a href="https://repl.it/@alexanderghose/MorseCode">here</a>. (But try not to peek!)
