@@ -66,7 +66,7 @@
   <td>
     <strong><a href="project-1">Project 1</a> Pitches/Planning Materials due!</strong><br><br>
     <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
-    <a href="w02/d4/jquery-lab.md">DOM/jQuery Lab</a> (optional)</br><br>
+    <a href="w02/d4/jquery-lab.md">DOM/jQuery Lab</a> (optional but recommended for DOM practice)</br><br>
     <strong>Zoe 4-6pm</strong>
   </td>
   <td>
