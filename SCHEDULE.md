@@ -10,6 +10,98 @@
 
 ## Unit 1
 
+### Week 2 (Feb 16 - 19)
+
+<table>
+<thead>
+<tr>
+  <td></td>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+  <td><strong>Morning</strong></td>
+  <td>
+    Holiday
+  </td>
+  <td>
+    <a href="w02/d2/01-02-rock-paper-scissors">Rock, Paper, Scissors </a> (Build together)<br><br>
+    <a href="w02/d2/playing-audio.md">Playing Audio in Browser</a>
+  </td>
+  <td>
+    <a href="w01/d5/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
+    <a href="w01/d5/css-flexbox-grid-lab">CSS Flexbox & Grid Lab (Deliverable #8)</a></br><strong>Due: Next Wednesday</strong>  
+  </td>
+  <td>
+    <a href="w02/d3/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds) + 
+  <a href="w02/d3/js-callbacks-lab.md"> Callbacks Lab</a> (optional)</br></br>
+    Work on planning materials for <a href="project-1">Project 1</a>
+  </td>
+  <td>
+    <a href="w02/d5/js-classes.md">Javascript Classes</a> and <a href="w02/d5/js-classes-lab.md">JS Classes Lab</a>  (optional)<br><br>
+    Work on <a href="project-1">Project 1</a>
+  </td>
+</tr>
+
+
+<tr>
+  <td><strong>Afternoon</strong></td>
+  <td>
+    Holiday
+  </td>
+  <td>
+    <a href="w02/d4/array-iterator-methods.md">Array Iterator Methods</a> (loops without loops!), <a href="w02/d4/arrow-functions.md">Arrow Functions</a>, & <a href="w02/d5/this-keyword.md">'this'</a><br><br>
+<a href="w02/d4/array-methods-lab.md">Array Iterator Methods Lab</a> (optional)<br><br>
+  </td>
+  <td>
+    <a href="w01/d5/responsive-design.md">Responsive Design</a></br></br>
+    <a href="w01/d5/media-queries-lab.md">Media Queries Lab</a> (optional)
+  </td>
+  <td>
+    <strong><a href="project-1">Project 1</a> Pitches/Planning Materials due!</strong><br><br>
+    <a href="w02/d3/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d3/jquery-part-2.md">part 2</a><br><br>
+    <a href="w02/d3/jquery-lab.md">DOM/jQuery Lab</a> (optional)</br><br>
+    <strong>Zoe 4-6pm</strong>
+  </td>
+  <td>
+    Work on <a href="project-1">Project 1</a>
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Homework</strong></td>
+  <td>
+    Practice fundamentals (looping, functions) with edabit + labs<br><br>
+    Work on <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Friday</strong>
+  </td>
+  <td>
+    Practice fundamentals (looping, functions) with edabit + labs<br><br>
+    SEI <a href="README.md#daily-code-challenges">code challenge</a> #1/30
+  </td>
+  <td>
+    Planning materials for <a href="project-1">Project 1</a><br><br>
+    SEI <a href="README.md#daily-code-challenges">code challenge</a> #2/30
+  </td>
+  <td>
+    SEI <a href="README.md#daily-code-challenges">code challenge</a> #3/30
+  </td>
+  <td>
+    Prepare CS Topics: <a href="https://my.generalassemb.ly/activities/511">MyGA - Big O Notation</a><br><br>
+    SEI <a href="README.md#daily-code-challenges">code challenge</a> #4/30
+  </td>
+</tr>
+
+</tbody>
+</table>
+
+<br><br>
+
 ### Week 1 (Feb 8 - 12)
 
 <table>
