@@ -31,16 +31,17 @@
     Holiday
   </td>
   <td>
+    TTT (build together)<br><br>
     <a href="w02/d2/01-02-rock-paper-scissors">Rock, Paper, Scissors </a> (Build together)<br><br>
     <a href="w02/d2/playing-audio.md">Playing Audio in Browser</a>
   </td>
   <td>
-    <a href="w01/d5/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
-    <a href="w01/d5/css-flexbox-grid-lab">Flexbox Lab (Deliverable #8)</a></br><strong>Due: Next Wednesday</strong>  
+    <a href="w02/d3/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
+    <a href="w02/d3/css-flexbox-grid-lab">Flexbox Lab (Deliverable #8)</a></br><strong>Due: Next Wednesday</strong>  
   </td>
   <td>
-    <a href="w02/d3/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds)<br><br>
-  <a href="w02/d3/js-callbacks-lab.md"> Callbacks Lab</a> (optional)
+    <a href="w02/d4/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds)<br><br>
+  <a href="w02/d4/js-callbacks-lab.md"> Callbacks Lab</a> (optional)
   </td>
   <td>
     <a href="w02/d5/js-classes.md">Javascript Classes</a> and <a href="w02/d5/js-classes-lab.md">JS Classes Lab</a>  (optional)<br><br>
@@ -55,17 +56,17 @@
     Holiday
   </td>
   <td>
-    <a href="w02/d4/array-iterator-methods.md">Array Iterator Methods</a> (loops without loops!), <a href="w02/d4/arrow-functions.md">Arrow Functions</a>, & <a href="w02/d5/this-keyword.md">'this'</a><br><br>
-<a href="w02/d4/array-methods-lab.md">Array Iterator Methods Lab</a> (optional)<br><br>
+    <a href="w02/d2/array-iterator-methods.md">Array Iterator Methods</a> (loops without loops!), <a href="w02/d2/arrow-functions.md">Arrow Functions</a>, & <a href="w02/d2/this-keyword.md">'this'</a><br><br>
+<a href="w02/d2/array-methods-lab.md">Array Iterator Methods Lab</a> (optional)<br><br>
   </td>
   <td>
-    <a href="w01/d5/responsive-design.md">Responsive Design</a></br></br>
-    <a href="w01/d5/media-queries-lab.md">Media Queries Lab</a> (optional)
+    <a href="w02/d3/responsive-design.md">Responsive Design</a></br></br>
+    <a href="w02/d3/media-queries-lab.md">Media Queries Lab</a> (optional)
   </td>
   <td>
     <strong><a href="project-1">Project 1</a> Pitches/Planning Materials due!</strong><br><br>
-    <a href="w02/d3/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d3/jquery-part-2.md">part 2</a><br><br>
-    <a href="w02/d3/jquery-lab.md">DOM/jQuery Lab</a> (optional)</br><br>
+    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
+    <a href="w02/d4/jquery-lab.md">DOM/jQuery Lab</a> (optional)</br><br>
     <strong>Zoe 4-6pm</strong>
   </td>
   <td>
@@ -78,7 +79,8 @@
   <td>
     Practice fundamentals (looping, functions) with edabit + labs<br><br>
     Practice making little DOM apps like a click counter<br><br>
-    Work on <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Friday</strong>
+    Work on <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Friday</strong><br><em>(ideal: ASAP. This is one of the most important labs for Project 1)
+</em>
   </td>
   <td>
     Practice fundamentals<br><br>
