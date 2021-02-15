@@ -5,9 +5,9 @@
 
 ## Intro
 
-In the _DOM Events_ lesson we saw how to run a function, i.e., an event listener, when an event, such as a click, was dispatched. This lab provides practice defining event listeners used to manipulate the DOM in response to user interaction.
+In the _DOM Events_ lesson we saw how to run a function, i.e., an event listener, when an event, such as a click, was dispatched. This lab provides practice defining event listeners used to manipulate the DOM in response to user interaction. (It also roughly follows the <a href="../guide-to-building-a-browser-game.md">guide to building a browser game</a> which is what you will follow for developing your project 1.)
 
-### This lab is a deliverable (this is option 1 from <a href="dom-events-lab">this list</a>) Alternatively, you may do this <a href="dom-practice-lab-2b">alternate lab</a> instead of this one.
+### This lab is a deliverable (this is option 1 from <a href="../dom-events-lab.md">this list</a>).
 
 <br>
 
@@ -81,7 +81,7 @@ let btn1 = document.getElementById("btn1")
 
 Test out your code by pressing the "click me" button and watching the counter go up!
 
-If you get stuck, you can find a solution <a href="https://repl.it/@alexanderghose/ClickCounter#script.js">here</a>. (But try not to peek!)
+
 
 <br><br>
 

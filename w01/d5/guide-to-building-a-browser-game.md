@@ -19,53 +19,11 @@ This guide will help you with:
 
 ## Client-Side MVC Architectural Approach
 
-**Model-View-Controller (MVC)** is a popular software architectural pattern that is used to organize code in both client and server applications.
+**Model-View-Controller (MVC)** is a popular software architectural pattern that is used to organize code in both client and server applications. The idea is to separate:
 
-The following diagrams a typical client-side MVC architecture:
-
-<img src="https://i.imgur.com/jIY7mO5.png">
-
-Let's briefly review the Model, View and Controller components...
-
-#### Model
-
-The **Model** refers to the application's data that needs to be tracked/remembered - this data is often referred to as the application's **state**.
-
-**Data** is the _single-source of truth_ in an executing application!
- 
-By following a "data-centric" approach, developers can more easily test the application's logic - in fact, we can test out much of the app in the console (assuming you keep your functions and state in global scope while developing the app)! For example, you can type something like `getWinner()` in the console to check what value is being returned from that function. 
-
-An easy mistake new programmers make is using the **DOM** to hold state - instead, remember to use variables to hold **all** data that needs to be tracked during runtime.
-
-By following this approach, a developer can re-use much of an application's code  if/when the application needs to be ported to other platforms such as mobile and desktop.
-
-#### View
-
-The **View** is what the user sees and interacts with.
-
-In a browser app, the View consists of the **DOM** elements created using HTML, CSS and JavaScript.
-
-The View can be made to "listen" for user actions by adding _event listeners_ to DOM elements for a multitude of [DOM events](https://developer.mozilla.org/en-US/docs/Web/Events). 
-
-#### Controller
-
-The **Controller** is the bulk of your app's JavaScript, excluding the state variables (which represent the Model as described above).
-
-The Controller provides the glue between the Model and View (notice how the Model and View don't "know" about each other).
-
-In a browser app, it is the controller that adds event listeners to the View (DOM elements).
-
-When an event occurs, e.g., the user clicks something, the Controller:
-
-1. Updates the Model variables (state).
-2. Updates the View (DOM), using the data contained in the Model variables (state).
-
-#### Summary
-
-To summarize, the MVC architectural pattern organizes and structures code in a way that enables:
-
-- Code to be more testable, reusable and extendable.
-- Separation of the View (display) logic and business (application) logic. For example, you might decide to model a game of tic-tac-toe using the values of `1`, `-1` or `null` to represent whether a square holds Player X, Player O, or nobody, respectively.  However, when it comes time to transfer the app's state to the DOM, you can visualize the state anyway you want, e.g., a value of `1` is "rendered" with a certain image, etc.
+1. the UI code <strong>(view)</strong> such as ```<button>```s and ```<input>```s, and
+2. the actual state of the game <strong>(model)</strong> such as the current high score, the current secret word, or the current number of players - ie., your variables, and
+3. the code that connects the variables with the UI <strong>(controller)</strong> - eg., event listener code. When an event occurs, e.g., the user clicks the correct button, the Controller: <br> - Updates the variables (state) -- for example, ```currentScore += 1```, and<br>- Updates the View (DOM), using the data contained in the Model variables (state) --- for example, set the highscore visually from the highscore variable: ```div3.innerHTML = currentScore```
 
 ## Overall Application Flow
 
@@ -88,7 +46,7 @@ The following diagram denotes one approach to structuring your code:
 	let lose = numGuesses > MAX_GUESSES;
 	```
 
-- **Instead of using several separate variables to hold state**, consider using object properties when it makes sense to do so. For example, if you need to track info for two players, instead of using several variables like `player1name`, `player2name`, `player1score`, `player2score`, etc., consider using an object like:
+- **Store state in separate variables, or arrays, or objects**. For example, if you need to track info for two players, you can use several variables like `player1name`, `player2name`, `player1score`, `player2score`, etc., or an array of score where index 0 represents player one's score and index 1 represents player two's score like ```let scores=[0,0]```, or consider using an object like:
 
 	```js
 	const players = {
@@ -103,13 +61,13 @@ The following diagram denotes one approach to structuring your code:
 	};
 	```
 	
-	Following this practice will result in more concise code and make it easier to implement certain features such as persisting the state of a game.
+	Try to make your code concise, and make it easier to implement certain features such as persisting the state of a game.
 
 - **Don't store state data that can be computed** as needed from other data - this avoids the risk of data becoming out of sync or inconsistent. For example, in Tic-Tac-Toe, it's not necessary to track the number of moves to determine if there's a tie game - the variable used to track the state of the board can already provide this info.
 
 - If your code needs to access a DOM element more than once during runtime - **cache** it (save it in a variable).
 
-- **The `render()` function's responsibility is to transfer all state to the DOM**.  This includes the hiding/showing of parts of the UI based upon the application's state.  For example, when a hand is in play in a game of Blackjack, the `render()` function would show the hit/stand buttons and hide the betting-related buttons. Also, if the `render()` function becomes too large, you can break it up into smaller functions, e.g., `renderScores()`, 
+- **The `render()` function's responsibility is to transfer all state to the DOM (ie., update your UI from your variables)**.  This includes the hiding/showing of parts of the UI based upon the application's state.  For example, when a hand is in play in a game of Blackjack, the `render()` function would show the hit/stand buttons and hide the betting-related buttons. Also, if the `render()` function becomes too large, you can break it up into smaller functions, e.g., `renderScores()`, 
 
 - The overreaching principle to keep in mind is...<br>**In response to user interaction**:
 	1. **Update all state impacted by the interaction**, then

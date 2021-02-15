@@ -4,7 +4,9 @@
 
 ## Intro
 
-This lab will provide you some practice working with JavaScript objects, plus some additional practice working with arrays.
+Before you try this lab, make sure you can do these questions in our <a href="js-objects-practice.md">objects practice lab</a> first.
+
+This lab is optional and only for those who want a challenge! It will provide you some more challenging practice working with JavaScript objects, plus some additional practice working with arrays.
 
 This lab builds upon the `game` object that was started in the Intro to JS Objects lesson.
 
