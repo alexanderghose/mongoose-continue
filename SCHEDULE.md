@@ -36,12 +36,11 @@
   </td>
   <td>
     <a href="w01/d5/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
-    <a href="w01/d5/css-flexbox-grid-lab">CSS Flexbox & Grid Lab (Deliverable #8)</a></br><strong>Due: Next Wednesday</strong>  
+    <a href="w01/d5/css-flexbox-grid-lab">Flexbox Lab (Deliverable #8)</a></br><strong>Due: Next Wednesday</strong>  
   </td>
   <td>
-    <a href="w02/d3/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds) + 
-  <a href="w02/d3/js-callbacks-lab.md"> Callbacks Lab</a> (optional)</br></br>
-    Work on planning materials for <a href="project-1">Project 1</a>
+    <a href="w02/d3/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds)<br><br>
+  <a href="w02/d3/js-callbacks-lab.md"> Callbacks Lab</a> (optional)
   </td>
   <td>
     <a href="w02/d5/js-classes.md">Javascript Classes</a> and <a href="w02/d5/js-classes-lab.md">JS Classes Lab</a>  (optional)<br><br>
