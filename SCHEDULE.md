@@ -31,8 +31,8 @@
     Holiday
   </td>
   <td>
-    <a href="w02/d2/01-02-rock-paper-scissors">Rock, Paper, Scissors </a> (Build together)<br><br>
-    <a href="w02/d2/playing-audio.md">Playing Audio in Browser</a>
+    <a href="w02/d2/playing-audio.md">Playing Audio in Browser</a><br><br>
+    <a href="w02/d2/01-02-rock-paper-scissors">Rock, Paper, Scissors </a> (Build together)
   </td>
   <td>
     <a href="w02/d3/css-flexbox-grid.md">CSS Flexbox & Grid</a></br></br>
