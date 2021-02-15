@@ -31,7 +31,6 @@
     Holiday
   </td>
   <td>
-    TTT (build together)<br><br>
     <a href="w02/d2/01-02-rock-paper-scissors">Rock, Paper, Scissors </a> (Build together)<br><br>
     <a href="w02/d2/playing-audio.md">Playing Audio in Browser</a>
   </td>
@@ -58,6 +57,7 @@
   <td>
     <a href="w02/d2/array-iterator-methods.md">Array Iterator Methods</a> (loops without loops!), <a href="w02/d2/arrow-functions.md">Arrow Functions</a>, & <a href="w02/d2/this-keyword.md">'this'</a><br><br>
 <a href="w02/d2/array-methods-lab.md">Array Iterator Methods Lab</a> (optional)<br><br>
+    Review: Tic Tac Toe solution
   </td>
   <td>
     <a href="w02/d3/responsive-design.md">Responsive Design</a></br></br>
