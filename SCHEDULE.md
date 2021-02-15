@@ -77,10 +77,12 @@
   <td><strong>Homework</strong></td>
   <td>
     Practice fundamentals (looping, functions) with edabit + labs<br><br>
+    Practice making little DOM apps like a click counter<br><br>
     Work on <a href="w01/d5/tic-tac-toe">Pair Project: Tic Tac Toe (Deliverable #7)</a></br><strong>Due: Friday</strong>
   </td>
   <td>
-    Practice fundamentals (looping, functions) with edabit + labs<br><br>
+    Practice fundamentals<br><br>
+    Practice DOM apps<br><br>
     SEI <a href="README.md#daily-code-challenges">code challenge</a> #1/30
   </td>
   <td>
@@ -91,7 +93,7 @@
     SEI <a href="README.md#daily-code-challenges">code challenge</a> #3/30
   </td>
   <td>
-    Prepare CS Topics: <a href="https://my.generalassemb.ly/activities/511">MyGA - Big O Notation</a><br><br>
+    Prepare CS Topic #1: <a href="https://my.generalassemb.ly/activities/511">MyGA - Big O Notation</a><br><br>
     SEI <a href="README.md#daily-code-challenges">code challenge</a> #4/30
   </td>
 </tr>
