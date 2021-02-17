@@ -28,7 +28,7 @@ Lastly, in addition to presenting your projects next Friday, you will be require
 
 - You will share:
 
-	☐ Your choice of game.
+	☐ Your choice of game (see below for list!).
 
 	☐ A wireframe of your "main" game screen.
 
