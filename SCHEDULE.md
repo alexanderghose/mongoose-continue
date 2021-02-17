@@ -40,7 +40,8 @@
   </td>
   <td>
     <a href="w02/d4/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds)<br><br>
-  <a href="w02/d4/js-callbacks-lab.md"> Callbacks Lab</a> (optional)
+    <a href="w02/d4/js-callbacks-lab.md"> Callbacks Lab</a> (optional)<br><br>
+    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
   </td>
   <td>
     <a href="w02/d5/js-classes.md">Javascript Classes</a> and <a href="w02/d5/js-classes-lab.md">JS Classes Lab</a>  (optional)<br><br>
@@ -65,12 +66,12 @@
   </td>
   <td>
     <strong><a href="project-1">Project 1</a> Pitches/Planning Materials due!</strong><br><br>
-    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
     <a href="w02/d4/jquery-lab.md">DOM/jQuery Lab</a> (optional but recommended for DOM practice)</br><br>
     <strong>Zoe 4-6pm</strong>
   </td>
   <td>
-    Work on <a href="project-1">Project 1</a>
+    Work on <a href="project-1">Project 1</a><br><br>
+    Git Basics Review and, time-permitting, <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
   </td>
 </tr>
 
@@ -167,7 +168,6 @@
   <td>
       <a href="w01/d4/js-objects.md">JS Objects</a></br></br>
       <a href="w01/d4/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
-      <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>
