@@ -109,11 +109,16 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 > Note: Games are listed in approximate order of increasing difficulty.
 
+Games recommended for true first-time coders (~60 hours of work for a true beginner):
 1. **Hangman** (theme it and/or offer a choice of categories)
 1. **War** (the card game)
+
+Games recommended for first-time coders that want a challenge (~80 hours of work for a true beginner):
 1. **Blackjack**
 1. **Simon** (warning: will require asynchronous timing)
-1. **Connect Four** (not this time since we already did it!)
+
+Games recommended only for those that want a challenge (~160 hours+ of work for a true beginner, ~80 hours for an experienced coder):
+1. **Connect Four**
 1. **Slot Machine**
 1. **Mancala**
 1. **Minesweeper**
