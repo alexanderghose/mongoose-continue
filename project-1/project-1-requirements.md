@@ -12,7 +12,11 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 **You will be working individually for this project**.
 
-As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
+As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects or other sources**.  You must create it using our "guide to building a browser game" guidelines. Just to reiterate:
+
+# You cannot follow a tutorial for this project for it to be counted.
+
+However, using 1 or 2 lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
 
 Lastly, in addition to presenting your projects next Friday, you will be required to complete a Project 1 Assessment (more in a bit).
 
