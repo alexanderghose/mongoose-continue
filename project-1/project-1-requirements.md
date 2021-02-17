@@ -107,26 +107,22 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ## Choose From the Following Games
 
-> Note: Games are listed in approximate order of increasing difficulty. The times are based on anecdotal evidence.
-
-<em>(~80 hours of work for a first-time coder, ~20h for experienced coders)</em>:
+<strong>Note: Games are listed in approximate order of increasing difficulty.</strong>
 
 1. **Hangman** (theme it and/or offer a choice of categories)
-
 2. **War** (the card game)
 
-<em>(~100 hours of work for a first-time coder, ~25h for experienced coders)</em>:
+> Note: the above 2 will require ~80 hours of work for a first-time coder, ~20h for experienced coders
 
 3. **Blackjack**
-
 4. **Simon** (warning: will require asynchronous timing)
 
-<em>(~120 hours of work for a first-time coder, ~30h for experienced coders)</em>:
+> Note: the above 2 will require ~100 hours of work for a first-time coder, ~25h for experienced coders
 
 5. **Connect Four**
 6. **Slot Machine**
 
-<em>(>160 hours of work for a first-time coder, >40h for experienced coders)</em>:
+> Note: the above 2 will require ~120 hours of work for a first-time coder, ~30h for experienced coders
 
 7. **Mancala**
 8. **Minesweeper**
@@ -135,6 +131,8 @@ You will have a maximum of 10 minutes to present your project following these gu
 11. **Checkers** (no AI required - player vs. player is fine)
 12. **Solitaire**
 13. **Battleship** (would require a little AI to implement a computer opponent)
+
+> Note: the above 7 will require >160 hours of work for a first-time coder, 40-80h for experienced coders
 
 **It is highly recommended that you choose from the above list, however, if you feel confident and have a game not on the list that you'd like to code, please be sure to get approval from your instructor before starting your planning (wireframes & pseudocode)!**
 
