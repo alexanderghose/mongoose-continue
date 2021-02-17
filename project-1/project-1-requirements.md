@@ -107,28 +107,28 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ## Choose From the Following Games
 
-> Note: Games are listed in approximate order of increasing difficulty.
+> Note: Games are listed in approximate order of increasing difficulty. The times are based on anecdotal evidence.
 
-<em>(~60 hours of work for a first-time coder, ~30h for experienced coders)</em>:
+<em>(~80 hours of work for a first-time coder, ~20h for experienced coders)</em>:
 1. **Hangman** (theme it and/or offer a choice of categories)
-1. **War** (the card game)
+2. **War** (the card game)
 
-<em>(~80 hours of work for a first-time coder, ~40h for experienced coders)</em>:
-1. **Blackjack**
-1. **Simon** (warning: will require asynchronous timing)
+<em>(~100 hours of work for a first-time coder, ~25h for experienced coders)</em>:
+3. **Blackjack**
+4. **Simon** (warning: will require asynchronous timing)
 
-<em>(~100 hours of work for a first-time coder, ~50h for experienced coders)</em>:
-1. **Connect Four**
-1. **Slot Machine**
+<em>(~120 hours of work for a first-time coder, ~30h for experienced coders)</em>:
+5. **Connect Four**
+6. **Slot Machine**
 
-<em>(>120 hours of work for a first-time coder, >60h for experienced coders)</em>:
-1. **Mancala**
-1. **Minesweeper**
-1. **Roulette**
-1. **Video Poker**
-1. **Checkers** (no AI required - player vs. player is fine)
-1. **Solitaire**
-1. **Battleship** (would require a little AI to implement a computer opponent)
+<em>(>160 hours of work for a first-time coder, >40h for experienced coders)</em>:
+7. **Mancala**
+8. **Minesweeper**
+9. **Roulette**
+10. **Video Poker**
+11. **Checkers** (no AI required - player vs. player is fine)
+12. **Solitaire**
+13. **Battleship** (would require a little AI to implement a computer opponent)
 
 **It is highly recommended that you choose from the above list, however, if you feel confident and have a game not on the list that you'd like to code, please be sure to get approval from your instructor before starting your planning (wireframes & pseudocode)!**
 
