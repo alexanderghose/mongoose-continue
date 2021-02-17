@@ -109,19 +109,19 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 > Note: Games are listed in approximate order of increasing difficulty. The times are based on anecdotal evidence.
 
-<em>(~80 hours of work for a first-time coder, ~20h for experienced coders)</em>:
+<em>(~80 hours of work for a first-time coder, ~20h for experienced coders)</em>:<br>
 1. **Hangman** (theme it and/or offer a choice of categories)
 2. **War** (the card game)
 
-<em>(~100 hours of work for a first-time coder, ~25h for experienced coders)</em>:
+<em>(~100 hours of work for a first-time coder, ~25h for experienced coders)</em>:<br>
 3. **Blackjack**
 4. **Simon** (warning: will require asynchronous timing)
 
-<em>(~120 hours of work for a first-time coder, ~30h for experienced coders)</em>:
+<em>(~120 hours of work for a first-time coder, ~30h for experienced coders)</em>:<br>
 5. **Connect Four**
 6. **Slot Machine**
 
-<em>(>160 hours of work for a first-time coder, >40h for experienced coders)</em>:
+<em>(>160 hours of work for a first-time coder, >40h for experienced coders)</em>:<br>
 7. **Mancala**
 8. **Minesweeper**
 9. **Roulette**
