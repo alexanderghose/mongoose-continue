@@ -60,9 +60,9 @@
     Work on Project 1
   </td>
   <td>
-    <strong>Project 1 Presentations @ 2pm</strong><br><br>
+    <strong>Project Presentations @ 2pm</strong><br><br>
     <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a><br><br>
-    Outcomes with Zoe 4-6pm
+  <strong>Outcomes with Zoe</strong> 4-6pm
   </td>
   <td>
     Project 1 Assessments
@@ -78,7 +78,7 @@
     Work on Project 1
   </td>
   <td>
-    Take 10 minutes to prep tomorrow's computer science lesson:<br> <a href="computer-science/01-cs-big-o-notation">myGA: big O notation</a><br><br>
+    Take 10 minutes to prep tomorrow's <br>computer science topic:<br> <a href="computer-science/01-cs-big-o-notation">myGA: big O notation</a><br><br>
     Work on Project 1
   </td>
   <td>
