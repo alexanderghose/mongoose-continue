@@ -72,20 +72,24 @@
 <tr>
   <td><strong>Homework</strong></td>
   <td>
-    Work on Project 1
+    Work on Project 1<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-5/30
   </td>
   <td>
-    Work on Project 1
+    Work on Project 1<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #6/30
   </td>
   <td>
     Take 10 minutes to prep tomorrow's <br>computer science topic:<br> <a href="computer-science/01-cs-big-o-notation">myGA: big O notation</a><br><br>
     Work on Project 1
   </td>
   <td>
-    Rest !
+    Rest !<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #7/30
   </td>
   <td>
-    Prep for NodeJS/Server-side!
+    Prep for NodeJS/Server-side!<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #8/30
   </td>
 </tr>
 
@@ -170,18 +174,18 @@
   <td>
     Practice fundamentals<br><br>
     Practice DOM apps<br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #1/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1/30
   </td>
   <td>
     Planning materials for <a href="project-1">Project 1</a><br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #2/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #2/30
   </td>
   <td>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #3/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #3/30
   </td>
   <td>
     Prepare CS Topic #1: <a href="https://my.generalassemb.ly/activities/511">MyGA - Big O Notation</a><br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #4/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #4/30
   </td>
 </tr>
 
