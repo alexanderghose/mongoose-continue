@@ -10,6 +10,95 @@
 
 ## Unit 1
 
+### Week 3 (Feb 22 - 26)
+
+<table>
+<thead>
+<tr>
+  <td></td>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+  <td><strong>Morning</strong></td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Attend <strong>Final Presentations UXDI/SEI</strong><br><br>
+    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
+    <a href="w02/d4/jquery-lab.md">jQuery Lab</a> (optional)
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Afternoon</strong></td>
+  <td>
+    Work on Project 1<br><br>
+    <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
+    <a href="w03/d2/deploy-ghpages.md">Put your game online:<br> Deploy to GitHub Pages!</a>
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    <strong>Project Presentations @ 2pm</strong><br><br>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a><br><br>
+  <strong>Outcomes with Zoe</strong> 4-6pm
+  </td>
+  <td>
+    Project 1 Assessments
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Homework</strong></td>
+  <td>
+    Work on Project 1<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-5/30
+  </td>
+  <td>
+    Work on Project 1<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #6/30
+  </td>
+  <td>
+    Take 10 minutes to prep tomorrow's <br>computer science topic:<br> <a href="computer-science/01-cs-big-o-notation">myGA: big O notation</a><br><br>
+    Work on Project 1
+  </td>
+  <td>
+    Rest !<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #7/30
+  </td>
+  <td>
+    Prep for NodeJS/Server-side!<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #8/30
+  </td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
 ### Week 2 (Feb 16 - 19)
 
 <table>
@@ -40,7 +129,8 @@
   </td>
   <td>
     <a href="w02/d4/js-callbacks.md">Callbacks</a> and timeouts <br>(do a thing every x seconds)<br><br>
-  <a href="w02/d4/js-callbacks-lab.md"> Callbacks Lab</a> (optional)
+    <a href="w02/d4/js-callbacks-lab.md"> Callbacks Lab</a> (optional)<br><br>
+    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
   </td>
   <td>
     <a href="w02/d5/js-classes.md">Javascript Classes</a> and <a href="w02/d5/js-classes-lab.md">JS Classes Lab</a>  (optional)<br><br>
@@ -65,7 +155,6 @@
   </td>
   <td>
     <strong><a href="project-1">Project 1</a> Pitches/Planning Materials due!</strong><br><br>
-    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
     <a href="w02/d4/jquery-lab.md">DOM/jQuery Lab</a> (optional but recommended for DOM practice)</br><br>
     <strong>Zoe 4-6pm</strong>
   </td>
@@ -85,18 +174,18 @@
   <td>
     Practice fundamentals<br><br>
     Practice DOM apps<br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #1/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1/30
   </td>
   <td>
     Planning materials for <a href="project-1">Project 1</a><br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #2/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #2/30
   </td>
   <td>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #3/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #3/30
   </td>
   <td>
     Prepare CS Topic #1: <a href="https://my.generalassemb.ly/activities/511">MyGA - Big O Notation</a><br><br>
-    SEI <a href="README.md#daily-code-challenges">code challenge</a> #4/30
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #4/30
   </td>
 </tr>
 
@@ -167,7 +256,6 @@
   <td>
       <a href="w01/d4/js-objects.md">JS Objects</a></br></br>
       <a href="w01/d4/js-objects-practice.md">JS Objects Extra Practice Lab (Optional / Not Deliverable)</a><br><br>
-      <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
       <strong>Outcomes with Zoe the Career Coach (4-6pm)</strong>
   </td>
   <td>

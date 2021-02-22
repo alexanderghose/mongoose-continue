@@ -12,7 +12,11 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 **You will be working individually for this project**.
 
-As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
+As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects or other sources**.  You must create it using our "guide to building a browser game" guidelines. Just to reiterate:
+
+# You cannot follow a tutorial for this project for it to be counted.
+
+However, using 1 or 2 lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
 
 Lastly, in addition to presenting your projects next Friday, you will be required to complete a Project 1 Assessment (more in a bit).
 
@@ -20,11 +24,11 @@ Lastly, in addition to presenting your projects next Friday, you will be require
 
 ## Planning & Presentation Requirements
 
-### Planning - Due This Friday:
+### Planning - Due This Thursday at 2pm:
 
 - You will share:
 
-	☐ Your choice of game.
+	☐ Your choice of game (see below for <a href="project-1-requirements.md#choose-from-the-following-games">the list</a>!).
 
 	☐ A wireframe of your "main" game screen.
 
@@ -107,21 +111,32 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ## Choose From the Following Games
 
-> Note: Games are listed in approximate order of increasing difficulty.
+<strong>Note: Games are listed in approximate order of increasing difficulty.</strong>
 
 1. **Hangman** (theme it and/or offer a choice of categories)
-1. **War** (the card game)
-1. **Blackjack**
-1. **Simon** (warning: will require asynchronous timing)
-1. **Connect Four** (not this time since we already did it!)
-1. **Slot Machine**
-1. **Mancala**
-1. **Minesweeper**
-1. **Roulette**
-1. **Video Poker**
-1. **Checkers** (no AI required - player vs. player is fine)
-1. **Solitaire**
-1. **Battleship** (would require a little AI to implement a computer opponent)
+2. **War** (the card game)
+
+> Note: the above 2 will require ~80 hours of work for a first-time coder, ~20h for experienced coders
+
+3. **Blackjack**
+4. **Simon** (warning: will require asynchronous timing)
+
+> Note: the above 2 will require ~100 hours of work for a first-time coder, ~25h for experienced coders
+
+5. **Connect Four**
+6. **Slot Machine**
+
+> Note: the above 2 will require ~120 hours of work for a first-time coder, ~30h for experienced coders
+
+7. **Mancala**
+8. **Minesweeper**
+9. **Roulette**
+10. **Video Poker**
+11. **Checkers** (no AI required - player vs. player is fine)
+12. **Solitaire**
+13. **Battleship** (would require a little AI to implement a computer opponent)
+
+> Note: the above 7 will require >160 hours of work for a first-time coder, 40-80h for experienced coders
 
 **It is highly recommended that you choose from the above list, however, if you feel confident and have a game not on the list that you'd like to code, please be sure to get approval from your instructor before starting your planning (wireframes & pseudocode)!**
 
