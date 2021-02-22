@@ -10,6 +10,91 @@
 
 ## Unit 1
 
+### Week 3 (Feb 22 - 26)
+
+<table>
+<thead>
+<tr>
+  <td></td>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+  <td><strong>Morning</strong></td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Attend <strong>Final Presentations UXDI/SEI</strong><br><br>
+    <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
+    <a href="w02/d4/jquery-lab.md">jQuery Lab</a> (optional)
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Afternoon</strong></td>
+  <td>
+    Work on Project 1<br><br>
+    <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
+    <a href="w03/d2/deploy-ghpages.md">Put your game online:<br> Deploy to GitHub Pages!</a>
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    <strong>Project 1 Presentations @ 2pm</strong><br><br>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a><br><br>
+    Outcomes with Zoe 4-6pm
+  </td>
+  <td>
+    Project 1 Assessments
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Homework</strong></td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Work on Project 1
+  </td>
+  <td>
+    Take 10 minutes to prep tomorrow's computer science lesson:<br> <a href="computer-science/01-cs-big-o-notation">myGA: big O notation</a><br><br>
+    Work on Project 1
+  </td>
+  <td>
+    Rest !
+  </td>
+  <td>
+    Prep for NodeJS/Server-side!
+  </td>
+</tr>
+
+</tbody>
+</table>
+
+<br>
+
+
 ### Week 2 (Feb 16 - 19)
 
 <table>
@@ -70,8 +155,7 @@
     <strong>Zoe 4-6pm</strong>
   </td>
   <td>
-    Work on <a href="project-1">Project 1</a><br><br>
-    Git Basics Review and, time-permitting, <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
+    Work on <a href="project-1">Project 1</a>
   </td>
 </tr>
 
