@@ -31,7 +31,9 @@
     Work on Project 1
   </td>
   <td>
-    Work on Project 1
+    Work on Project 1<br><br>
+    <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
+    <a href="w03/d2/deploy-ghpages.md">Put your game online:<br> Deploy to GitHub Pages!</a>
   </td>
   <td>
     Work on Project 1
@@ -49,9 +51,7 @@
 <tr>
   <td><strong>Afternoon</strong></td>
   <td>
-    Work on Project 1<br><br>
-    <a href="https://www.atlassian.com/git/tutorials/using-branches">Git Pt. 3: Branching</a></br></br>
-    <a href="w03/d2/deploy-ghpages.md">Put your game online:<br> Deploy to GitHub Pages!</a>
+    Work on Project 1
   </td>
   <td>
     Work on Project 1
