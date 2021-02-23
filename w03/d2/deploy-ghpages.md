@@ -23,6 +23,23 @@ Typical **static assets** include:
 
 ## Deploying with ghpages
 
+#### Check your directory structure
+
+Github Pages will check for a file called `index.html` in the root of your repository, and automatically serve it when your project is deployed. Here's an example of a well structured project
+
+```
+├── scripts
+│   └── main.js
+├── styles
+│   └── styles.css
+├── assets
+│   ├── background.png
+│   └── main_theme.mp3
+└── index.html
+```
+
+If your `index.html` is nested inside of a directory, Github will instead serve your `README.md` when you visit the deployed link. 
+
 #### Ensure your project is ready to deploy
 
 Make sure that your project is working - it does not make sense to deploy a broken app!
