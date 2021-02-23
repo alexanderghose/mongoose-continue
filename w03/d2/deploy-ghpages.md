@@ -36,6 +36,7 @@ Github Pages will check for a file called `index.html` in the root of your repos
 │   ├── background.png
 │   └── main_theme.mp3
 └── index.html
+└── README.md
 ```
 
 If your `index.html` is nested inside of a directory, Github will instead serve your `README.md` when you visit the deployed link. 
