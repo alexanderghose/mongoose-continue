@@ -28,6 +28,7 @@ Typical **static assets** include:
 Github Pages will check for a file called `index.html` in the root of your repository, and automatically serve it when your project is deployed. Here's an example of a well structured project
 
 ```
+my_project
 ├── scripts
 │   └── main.js
 ├── styles
