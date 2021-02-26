@@ -106,15 +106,13 @@ When the mouse is over the "+" or "-" button, the button should reverse its back
 
 Congrats, that's all there is to it!
 
-If you would like to skip Step 4 (Deployment), then show your app to your instructor.  If you deploy, slack the link instead.
+### STEP 4 - Submit: Push to a new Git Repo 
 
+Please follow these steps to push your app to GitHub:
 
+1. In Terminal, cd into your folder with your work (<strong>TIP:</strong> MAKE SURE THAT you're not already in another git repo. (ie., don't do this within your classwork folder, or any other git repositories)
 
-### STEP 4 - Deploy to GitHub Pages (Optional)
-
-Please follow these steps to deploy your app to GitHub Pages:
-
-1. In Terminal, create a local git repo: `$ git init`
+1. Create a local git repo: `$ git init`
 
 1. Make a commit: `$ git add -A && git commit -m "Initial commit"`
 
@@ -124,6 +122,14 @@ Please follow these steps to deploy your app to GitHub Pages:
 
 	> Be sure to replace **\<your github username\>** with your GitHub username!
 
+1. Now run the command `$ git push origin main` or `$ git push origin master` to push to the cloud! Enter your credentials if necessary.
+
+**Add the code link to your DELIVERABLES file**
+
+### STEP 5 - Deploy to GitHub Pages (Optional)
+
+Please follow these steps to optionally deploy your app to GitHub Pages:
+
 1. Create the `gh-pages` branch:<br>`$ git checkout -b gh-pages` 
 
 1. Now run the command `$ git push origin gh-pages` to deploy! Enter your credentials if necessary.
@@ -132,9 +138,9 @@ Please follow these steps to deploy your app to GitHub Pages:
 
 > Note that the link might take a minute to become active.
 
-**Add the code link and github pages link to your LINKS file**
+**Add the code link and github pages deployment link to your DELIVERABLES file**
 
-### STEP 5 - Bonus
+### STEP 6 - Bonus
 
 As a bonus, display the count in red if it is a negative value!
 
