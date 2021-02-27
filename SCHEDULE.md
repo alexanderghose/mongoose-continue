@@ -29,7 +29,7 @@
   <td><strong>Morning</strong></td>
   <td>
     <a href="w04/d1/intro-fullstack-http.md">Intro to Fullstack</a>: HTTP REQuest & RESponse</br><br>
-    <a href="w04/d1/intro-to-node.md">NodeJS</a> (briefly) and the 
+    <a href="w04/d1/intro-to-node.md">NodeJS</a> (briefly)<br><br>
     <a href="w04/d1/intro-to-express.md">"Express" webserver</a>: route handlers, ejs, dynamic ejs, "index" page.</br><br>
     <a href="w04/d1/express-intro-lab.md">Express Lab</a> <strong>(Deliverable #1)</strong><br><br>
   </td>
