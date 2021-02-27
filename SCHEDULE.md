@@ -44,7 +44,7 @@
   <td>
     Attend <strong>Final Presentations UXDI/SEI</strong><br><br>
     <a href="w02/d4/jquery-part-1.md">jQuery part 1</a> and <a href="w02/d4/jquery-part-2.md">part 2</a><br><br>
-    <a href="w02/d4/jquery-lab.md">jQuery Lab</a> (optional)
+    <a href="w02/d4/jquery-lab.md">jQuery Lab</a> (optional but counts if you do it)
   </td>
 </tr>
 
