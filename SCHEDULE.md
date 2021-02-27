@@ -29,7 +29,7 @@
   <td><strong>Morning</strong></td>
   <td>
     <a href="w04/d1/intro-fullstack-http.md">Intro to Fullstack</a>: HTTP REQuest & RESponse</br><br>
-    <a href="w04/d1/intro-to-node.md">NodeJS</a> (briefly)<br><br>
+    <a href="w04/d1/intro-to-node.md">NodeJS</a> (briefly) + the
     <a href="w04/d1/intro-to-express.md">"Express" webserver</a>: route handlers, ejs, dynamic ejs, "index" page.</br><br>
     <a href="w04/d1/express-intro-lab.md">Express "Index page" Lab</a> <strong>(Deliverable #1)</strong><br><br>
   </td>
@@ -72,7 +72,7 @@
     <strong>Zoe at 4pm</strong>
   </td>
   <td>
-    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 is Deliverable)</strong>
+    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 will be Deliverable #6)</strong>
   </td>
 </tr>
 
