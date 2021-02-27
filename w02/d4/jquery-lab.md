@@ -61,7 +61,7 @@ This lab **is optionally a deliverable**. (If you do submit it, we'll count it.)
 
 ## Deliverable
 
-When completed, please slack the link to your GitHub repo to your instructors. 
+When completed, please put the link to your GitHub repo in your deliverables file.
 
 ## Bonus
 
