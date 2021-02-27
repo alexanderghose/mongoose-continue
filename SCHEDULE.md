@@ -8,6 +8,101 @@
 
 <br>
 
+## Unit 2
+
+### Week 4 (Mar 1 - 5)
+
+<table>
+<thead>
+<tr>
+  <td></td>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+  <td><strong>Morning</strong></td>
+  <td>
+    <a href="w04/d1/intro-fullstack-http.md">Intro to Fullstack</a>: HTTP REQuest & RESponse</br><br>
+    <a href="w04/d1/intro-to-node.md">NodeJS</a> (briefly) and the 
+    <a href="w04/d1/intro-to-express.md">"Express" webserver</a>: route handlers, ejs, dynamic ejs, "index" page.</br><br>
+    <a href="w04/d1/express-intro-lab.md">Express Lab</a> <strong>(Deliverable #1)</strong><br><br>
+  </td>
+  <td>
+    <a href="w04/d2/url-params">Working with URL Parameters</a><br><br>
+    <a href="w04/d2/url-params-lab">URL Params Lab</a><strong>(Deliverable #3)</strong><br><br>
+    <a href="w04/d2/express-routers-controllers">Express MVC Part I:</a> Modular mountable routehandlers, Models, "show" page
+  </td>
+  <td>
+    <a href="w04/d3/express-routers-controllers">Express MVC Part II</a>: Controllers<br><br>
+    <a href="w04/d3/express-middleware">Express Middleware + Creating Forms Part I:</a> "create" page<br><br>
+  </td>
+  <td>
+    <a href="w04/d4/forms">Working with Forms</a>: req.body, postman, and XSS/CSRF attacks<br><br>
+    <a href="w04/d4/form-lab">Contact Form Lab</a> <strong>(Deliverable #4)</strong>
+  </td>
+  <td>
+    <a href="w04/d5/mongodb-intro.md">Intro to MongoDB</a></br></br>
+    <a href="w04/d5/mongoose-intro">Intro to Mongoose</a>
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Afternoon</strong></td>
+  <td>
+    <a href="w04/d1/ejs">Working with EJS + objects</a><br><br>
+    <a href="w04/d1/ejs-lab">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
+  </td>
+  <td>
+    <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 1</a> <strong>(Pt. 3 is Deliverable #5)</strong>
+  </td>
+  <td>
+    <a href="w04/d3/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong>
+    
+  </td>
+  <td>
+    <a href="w04/d4/express-middleware">Creating Forms Part II:</a> "update" and "delete"<br><br>
+    <a href="w04/d4/express-dev-skills-lab">Dev Skills Lab part 3</a> <strong>(Deliverable #5)</strong><br><br>
+    <strong>Zoe at 4pm</strong>
+  </td>
+  <td>
+    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 is Deliverable)</strong>
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Homework</strong></td>
+  <td>
+    Review notes/recording. Write lots of code! Practice.<br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-8/30
+  </td>
+  <td>
+    <a href="w05/d5/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web App</a></br></br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #8/30
+  </td>
+  <td>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #9/30
+  </td>
+  <td>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #10/30
+  </td>
+  <td>
+    Finish labs + Lookahead<br><br>
+    Start brainstorming <a href="project-2">Project 2</a><br><br>
+    SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #11-#15/30
+  </td>
+</tr>
+
+</tbody>
+</table>
+
+
 ## Unit 1
 
 ### Week 3 (Feb 22 - 26)

@@ -2,6 +2,7 @@
 
 # Things we want git to ignore for Unit 2
 .env
+node_modules
 
 
 # Things we want git to ignore for Unit 3
