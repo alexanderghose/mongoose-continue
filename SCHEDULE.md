@@ -57,14 +57,13 @@
   <td>
     <a href="w04/d1/ejs">Working with EJS + objects</a><br><br>
     <a href="w04/d1/ejs-lab">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
-    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
   </td>
   <td>
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 1</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
-    <a href="w04/d3/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong>
-    
+    <a href="w04/d3/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong><br><br>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
   </td>
   <td>
     <a href="w04/d4/express-middleware">Creating Forms Part II:</a> "update" and "delete"<br><br>
