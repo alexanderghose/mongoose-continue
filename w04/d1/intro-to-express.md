@@ -36,6 +36,8 @@
 #### Setup
 <br>
 
+- For the rest of the course, we will use the express-generator command ``` express -e my_project``` to generate an express webserver that will include a package.json file and an ```app.js``` file and a ```views``` folder. 
+- But <strong>today, and only today, we will create a nodejs server from scratch</strong>. Going forward, we expect you to use the express-generator, and not this manual way.
 - Create a folder and cd into it:
 
 	```sh
