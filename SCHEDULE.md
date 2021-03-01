@@ -54,7 +54,7 @@
   <td><strong>Afternoon</strong></td>
   <td>
     Working with EJS + objects<br><br>
-    <a href="w04/d1/ejs-lab">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
+    <a href="w04/d1/ejs-lab/ejs-lab.md">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
   </td>
   <td>
     Working with URL Parameters<br><br>
@@ -82,7 +82,7 @@
     SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-8/30
   </td>
   <td>
-    <a href="w05/d5/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web App</a></br></br>
+    <a href="w04/d2/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web App</a></br></br>
     SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #8/30
   </td>
   <td>
