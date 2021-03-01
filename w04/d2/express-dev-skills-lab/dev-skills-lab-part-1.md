@@ -45,6 +45,6 @@ The goal of the lab is to put in a rep doing everything that you did during the 
 
 - Add styling or use a CSS framework to make the app look better :)
 
-### This lab is not a deliverable, however, Part 2, which builds upon this lab, is a deliverable.
+### This lab is not a deliverable, however, Part 3, which builds upon this lab, is a deliverable.
 
 

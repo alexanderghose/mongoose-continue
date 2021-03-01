@@ -58,16 +58,16 @@
   </td>
   <td>
     Working with URL Parameters<br><br>
-    <a href="w04/d2/url-params-lab">URL Params Lab</a><strong>(Deliverable #3)</strong>
+    <a href="w04/d2/url-params-lab">URL Params Lab</a><strong>(Deliverable #3)</strong><br><br>
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 1</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
-    <a href="w04/d3/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong><br><br>
+    <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong><br><br>
     <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
   </td>
   <td>
     <a href="w04/d4/express-middleware">Creating Forms Part II:</a> "update" and "delete"<br><br>
-    <a href="w04/d4/express-dev-skills-lab">Dev Skills Lab part 3</a> <strong>(Deliverable #5)</strong><br><br>
+    <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 3</a> <strong>(Deliverable #5)</strong><br><br>
     <strong>Zoe at 4pm</strong>
   </td>
   <td>
