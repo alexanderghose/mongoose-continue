@@ -18,7 +18,7 @@ Once you've run the app using ```nodemon``` and you see a screen like the follow
 
 ## Task 1: res.send
 
-Open up your express-generated project in VSCode, and follow the instructions in today's lesson to <a href="w04/d1/intro-to-express.md#our-first-route">setup a route handler</a> for the address "/boring" directly in your app.js or server.js file, above the // catch 404 comment. Make this route handler send a text response that says "This is a boring line of text". 
+Open up your express-generated project in VSCode, and follow the instructions in today's lesson to <a href="../../../w04/d1/intro-to-express.md#our-first-route">setup a route handler</a> for the address "/boring" directly in your app.js or server.js file, above the // catch 404 comment. Make this route handler send a text response that says "This is a boring line of text". 
 
 ```js
  // add your route handler here
