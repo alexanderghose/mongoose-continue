@@ -6,7 +6,7 @@ For this lab, we are going to learn some cool tricks, such as how to create a ro
 
 ## Setup
 
-Follow the instructions in <a href="../../w04/d2/express-routers-controllers/express-routers-controllers.md#express-generator-2">tomorrow's lesson</a> to setup a basic express app using the express generator in a folder called <strong>ejs_lab</strong>.
+Follow the instructions in <a href="../../../w04/d2/express-routers-controllers/express-routers-controllers.md#express-generator-2">tomorrow's lesson</a> to setup a basic express app using the express generator in a folder called <strong>ejs_lab</strong>.
 
 <strong>Note:</strong> the instructions above have you rename your app.js to server.js, but for this lab you can leave it as is, if you would like.
 
