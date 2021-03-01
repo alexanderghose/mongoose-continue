@@ -55,7 +55,7 @@
 <tr>
   <td><strong>Afternoon</strong></td>
   <td>
-    <a href="w04/d1/ejs">Working with EJS + objects</a><br><br>
+    Working with EJS + objects<br><br>
     <a href="w04/d1/ejs-lab">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
   </td>
   <td>
