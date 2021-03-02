@@ -19,7 +19,7 @@
 - Your database should be in the form of **an array of objects**. For now, you may declare your fake database ***in the albums router files*** as we will move it to models in a later step. Your database may look something like this:
     ```javascript
     let albumsArray = [
-      {id: "000", name: "Thriller", artist: "Michael Jackson"},
+      {id: "a0", name: "Thriller", artist: "Michael Jackson"},
       {id: "001", name: "Baby One More Time", artist: "Britney Spears"},
       {id: "002", name: "Ladies' Night", artist: "Kool & the Gang"}
     ]
