@@ -3,7 +3,10 @@
 
 ## Task 1: Generate a webserver using the express generator
 - Make sure you have `express-generator` installed (`npm i -g express-generator`)
-- Hints: Run the express generator command with the -e EJS option: `express -e lab_3`, and then `cd` into the lab_3 folder and then run `npm install` to install it.
+- Hints: 
+- Run the express generator command with the -e option to include EJS: `express -e lab_3`, and then 
+- `cd` into the lab_3 folder and then 
+- run `npm install` to install all of the modules that are listed in `package.json` (a node_modules folder should show up with the source code of these now-installed modules)
 
 ## Task 2: Add a route and generate a view
 - ### 2A:
