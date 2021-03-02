@@ -83,6 +83,7 @@
   </td>
   <td>
     <a href="w04/d2/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web App</a></br></br>
+    <a href="https://ncoughlin.com/posts/express-route-parameters/">External resource on URL Parameters</a><br><br>
     SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #8/30
   </td>
   <td>
