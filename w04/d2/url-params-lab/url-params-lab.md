@@ -3,11 +3,11 @@
 
 ## Task 1: Generate a webserver using the express generator
 - Make sure you have `express-generator` installed (`npm i -g express-generator`)
-- Hints: 
+- Hints: Run the express generator command with the -e EJS option: `express -e lab_3`, and then `cd` into the lab_3 folder and then run `npm install` to install it.
 
 ## Task 2: Add a route and generate a view
 - ### 2A:
-  - Add a "localhost:3000/albums" route that sends a simple "welcome to albums" message to the user
+  - Add a "localhost:3000/albums" route that sends a simple "welcome to the albums page" message to the user
 - ### 2B:
   - Update the previous route to instead send a nice HTML file to your user with the same text
   
@@ -16,9 +16,9 @@
 - Your database should be in the form of **an array of objects**. For now, you may declare your fake database ***in the albums router files*** as we will move it to models in a later step. Your database may look something like this:
     ```javascript
     let albumsArray = [
-      {id: , name: "Thriller", artist: "Michael Jackson"},
-      {id: 001, name: "Baby One More Time", artist: "Britney Spears"},
-      {id: 002, name: "Ladies' Night", artist: "Kool & the Gang"}
+      {id: "000", name: "Thriller", artist: "Michael Jackson"},
+      {id: "001", name: "Baby One More Time", artist: "Britney Spears"},
+      {id: "002", name: "Ladies' Night", artist: "Kool & the Gang"}
     ]
     ```
  - Example: 
@@ -39,7 +39,7 @@
  - When your user goes to `/albums`, they see the list of albums (Index view)
  - When your user goes to `/albums/a0`, they see one single album (Details view)
  - Wouldn't it be nice if the user could just click a link to get from the index to the details?
- - Refactor your `albums.ejs` code so that each album has a `<a hreg=...>` hyperlink that directs them to the appropriate details page
+ - Refactor your `albums.ejs` code so that each album has a `<a href=...>` hyperlink that directs them to the appropriate details page
   - This should be a front-end only change! Your backend is already doing a great job.
   
 ## Task 8: Tracks (optional)(bonus):
