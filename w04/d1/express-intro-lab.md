@@ -12,11 +12,13 @@ It's natural, in fact, **expected**, to feel "uncomfortable" and confused by Nod
 As always, the journey toward competence requires practice - so let's get on with it!
 
 
-## Exercise
+## Lab
 
-The goal of the exercise is to do put in a rep doing everything that you did during the Express lesson!
+The goal of the exercise is to do put in a rep doing everything that you did during the Express lesson! In particular, we want to create an "index" page which shows you an overview of all of the data in your "todos" database.
 
-However, instead of To Dos, change up the data resource to something else, like `students` - your call.
+However, instead of "To Dos", change up the data resource to something else, like `students` or `shoes` - your call.
+
+Submit by pushing this to git and posting a link in your deliverables.
 
 ## Bonuses
 
