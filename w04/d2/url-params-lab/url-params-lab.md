@@ -45,6 +45,10 @@
  - Refactor your `albums.ejs` code so that each album has a `<a href=...>` hyperlink that directs them to the appropriate details page
   - This should be a front-end only change! Your backend is already doing a great job.
   
+## Task 7: Styling (optional) (bonuss):
+- Add some styling to make it look like the real spotify page (maybe throw a disclaimer on there saying this is for educational purposes only!)
+- There are lots of sources online that you can use to simulate the spotify-like look and feel (for example, <a href="https://github.com/IvanDF/html-css-spotifyweb">this</a> git repo has a reasonably similar html/css)
+
 ## Task 8: Tracks (optional)(bonus):
 - Update each album in your albums database to contain another property called `tracks: []`. Tracks will be an array of objects as well, and each track should be in the form of `{id: "t0", name: "Wanna be Startin' Somethin'"}`
 - Implement similar functionality of `/albums`:
