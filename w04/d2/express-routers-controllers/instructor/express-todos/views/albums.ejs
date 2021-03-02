@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums</title>
+</head>
+<body>
+    Welcome to spotify. This is an index page.<hr>
+    <% for (let a of albums) { %>
+        <%= a.id %>
+        <%= a.name %>
+        <a href="/albums/<%= a.id %>">Click here</a>
+        <hr>
+    <% } %>
+</body>
+</html>

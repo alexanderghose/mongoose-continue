@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color: yellow;">
+        This is the list of students:</h1>
+
+        <% for (let s of students) { %>
+            <%= s.studentid %>
+            <%= s.name      %>
+            <hr>
+        <% } %>
+</body>
+</html>
