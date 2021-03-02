@@ -34,6 +34,8 @@
     <a href="w04/d1/express-intro-lab.md">Express "Index page" Lab</a> <strong>(Deliverable #1)</strong><br><br>
   </td>
   <td>
+    Working with URL Parameters<br><br>
+    <a href="w04/d2/url-params-lab">URL Params Lab</a><strong>(Deliverable #3)</strong><br><br>
     <a href="w04/d2/express-routers-controllers">Express MVC Part I:</a> Modular mountable routehandlers, Models, "show" page
   </td>
   <td>
@@ -57,8 +59,6 @@
     <a href="w04/d1/ejs-lab/ejs-lab.md">EJS Lab</a> <strong>(Deliverable #2)</strong><br><br>
   </td>
   <td>
-    Working with URL Parameters<br><br>
-    <a href="w04/d2/url-params-lab">URL Params Lab</a><strong>(Deliverable #3)</strong><br><br>
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 1</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
