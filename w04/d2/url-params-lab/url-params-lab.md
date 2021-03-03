@@ -8,7 +8,7 @@
 - `cd` into the lab_3 folder and then 
 - run `npm install` to install all of the modules that are listed in `package.json` (a node_modules folder should show up with the source code of these now-installed modules)
 
-## Task 2: Add a route and generate a view
+## Task 2: Add a route handler and generate a view
 - ### 2A:
   - Add a "localhost:3000/albums" route handler that sends a simple "welcome to the albums page" message to the user
 - ### 2B:
