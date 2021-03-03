@@ -18,7 +18,7 @@ The goal of the exercise is to do put in a rep doing everything that you did dur
 
 However, instead of "To Dos", change up the data resource to something else, like `students` or `shoes` - your call. Your final finished "index" page may look something like this:
 
-<img src="https://imgur.com/a/B6J7W4h" />
+<img src="https://i.imgur.com/WNBGhER.jpeg" />
 
 Submit by pushing this to git and posting a link in your deliverables.
 
