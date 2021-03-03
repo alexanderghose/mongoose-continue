@@ -62,8 +62,7 @@
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 1</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
-    <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong><br><br>
-    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
+    <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
     <a href="w04/d4/express-middleware">Creating Forms Part II:</a> "update" and "delete"<br><br>
@@ -71,7 +70,8 @@
     <strong>Zoe at 4pm</strong>
   </td>
   <td>
-    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 will be Deliverable #6)</strong>
+    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 will be Deliverable #6)</strong><br><br>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a>
   </td>
 </tr>
 
