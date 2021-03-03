@@ -41,9 +41,10 @@ app.get('/albums/:albumid', function(req,res) {
   for (let a of albums) {
     if (a.id === req.params.albumid) {
       res.render('show.ejs', {album:a})
+      return; // <-- if the incoming id matches one of the albums, return out of this function ASAP
     }
   }
-  res.send('there was an error processing your request')
+  res.send('there was an error processing your request') // if we get here, it means the for loop failed to match the incoming id with our array's ids
 })
 
 // search a database
