@@ -29,7 +29,7 @@
  > ![example 1](https://i.imgur.com/9fp1fZN.png)
  
  ## Task 4: User can view a single album (details view)
- - Create a route that accepts an id as a route parameter which will respond with the name and artist for that album.
+ - Create a route handler that accepts an id as a route parameter which will respond with the name and artist for that album.
   - If your user goes to `localhost:3000/albums/a0`, they should be able to view the corresponding album. Example:
   
  > ![example 2](https://imgur.com/7MbhypW.png)
