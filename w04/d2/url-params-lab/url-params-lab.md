@@ -10,7 +10,7 @@
 
 ## Task 2: Add a route and generate a view
 - ### 2A:
-  - Add a "localhost:3000/albums" route that sends a simple "welcome to the albums page" message to the user
+  - Add a "localhost:3000/albums" route handler that sends a simple "welcome to the albums page" message to the user
 - ### 2B:
   - Update the previous route to instead send a nice HTML file to your user with the same text
   
