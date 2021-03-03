@@ -16,7 +16,9 @@ As always, the journey toward competence requires practice - so let's get on wit
 
 The goal of the exercise is to do put in a rep doing everything that you did during the Express lesson! In particular, we want to create an "index" page which shows you an overview of all of the data in your "todos" database.
 
-However, instead of "To Dos", change up the data resource to something else, like `students` or `shoes` - your call.
+However, instead of "To Dos", change up the data resource to something else, like `students` or `shoes` - your call. Your final finished "index" page may look something like this:
+
+<img src="https://imgur.com/a/B6J7W4h" />
 
 Submit by pushing this to git and posting a link in your deliverables.
 
