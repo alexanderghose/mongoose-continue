@@ -8,9 +8,9 @@
 - `cd` into the lab_3 folder and then 
 - run `npm install` to install all of the modules that are listed in `package.json` (a node_modules folder should show up with the source code of these now-installed modules)
 
-## Task 2: Add a route and generate a view
+## Task 2: Add a route handler and generate a view
 - ### 2A:
-  - Add a "localhost:3000/albums" route that sends a simple "welcome to the albums page" message to the user
+  - Add a "localhost:3000/albums" route handler that sends a simple "welcome to the albums page" message to the user
 - ### 2B:
   - Update the previous route to instead send a nice HTML file to your user with the same text
   
@@ -29,7 +29,7 @@
  > ![example 1](https://i.imgur.com/9fp1fZN.png)
  
  ## Task 4: User can view a single album (details view)
- - Create a route that accepts an id as a route parameter which will respond with the name and artist for that album.
+ - Create a route handler that accepts an id as a route parameter which will respond with the name and artist for that album.
   - If your user goes to `localhost:3000/albums/a0`, they should be able to view the corresponding album. Example:
   
  > ![example 2](https://imgur.com/7MbhypW.png)

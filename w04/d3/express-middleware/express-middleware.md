@@ -13,9 +13,9 @@
 ## Roadmap
 
 - Setup
+- Creating To-Dos
 - What is Middleware?
 - Our First Middleware
-- Creating To-Dos
 - `method-override` Middleware
 - Delete a To-Do
 - Exercise: Update a To-Do
@@ -32,113 +32,6 @@ Synchronize your local repo with the starter code with these commands:
 
 Open project in VS Code
 
-## What is Middleware?
-
-In the Intro to Express lesson, we identified the three fundamental capabilities provided by web application frameworks:
-
-1. The ability to define routes
-2. The ability to process HTTP requests using middleware
-3. The ability to use a view engine to render dynamic templates
-
-We've already defined routes and rendered dynamic templates.
-
-In this lesson we complete the trifecta by processing requests using middleware.
-
-A middleware is simply a function with the following signature:
-
-```js
-function(req, res, next) {
-  
-}
-```
-
-As you can see, middleware functions have access to Express's _request_ (`req`) and _response_ (`res`) objects with useful properties and methods.  Because they are just objects, middleware may modify them in anyway they see fit.
-
-Here is the basic **middleware pipeline** as it stands currently in our Express generated app:
-
-<img src="https://i.imgur.com/rxTC6lx.png">
-
-Once a middleware has done its job, it either calls `next()` to pass control to the next middleware in the pipeline **or** ends the request as we've been doing with the `render` & `redirect` methods...
-
-Yes, you have already written middleware - the controller actions, `todosCtrl.index` & `todosCtrl.show`, are technically middleware!
-	
-The controller middleware functions didn't need to define the `next` parameter because they were at the **end of the middleware pipeline**.  That is, they ended the request/response cycle by calling a method on the `res` object, e.g., `res.render`.
-
-> The `next` function can also used for [error handling](https://expressjs.com/en/guide/error-handling.html) in Express, but we won't worry about that for now.
-
-## Our First Middleware
-
-There's no better way to understand middleware than to see one in action.
-
-Open **server.js** and add this "do nothing" middleware:
-
-```js
-app.set('view engine', 'ejs');
-	
-// add middleware below the above line of code
-app.use(function(req, res, next) {
-  console.log('Hello SEI!');
-  next();
-});
-```
-
-Type `nodemon` to start the server, browse to `localhost:3000`, and check terminal. 
-
-Note that `app.use` mounts middleware functions into the middleware pipeline.
-
-Let's add a line of code that modifies the `req` object by adding the current time to Express's request object that then can be accessed by any subsequent middleware: 
-
-```js
-app.use(function(req, res, next) {
-  console.log('Hello SEI!');
-  // Add a time property to the req object
-  req.time = new Date().toLocaleTimeString();
-  next();
-});
-```
-> Use the [Node debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging) to inspect the above code.
-
-Now let's pass this info to the **todos/index.ejs** view.  **It's the responsibility of controllers to pass data to views.**
-
-Now let's update the `index` action in **controllers/todos.js** so that it passes `req.time` to the template:
-
-```js
-function index(req, res) {
-  res.render('todos/index', {
-    todos: Todo.getAll(),
-    time: req.time  // add this line
-  });
-}
-```
-
-Now we can render the time in **todos/index.ejs** by updating the `<h1>` as follows:
-
-```html
-<h1>Todos as of <%= time %></h1>
-```
-
-Refresh!
-
-#### The order that middleware is mounted matters!
-
-We call it the **middleware pipeline** for a reason - the request flows through the middleware in the order they are mounted using `app.use`.
-
-In **server.js**, let's move our custom middleware below where the routers are being mounted:
-
-```js
-app.use('/', indexRouter);
-app.use('/todos', todosRouter);
-	
-app.use(function(req, res, next) {
-  console.log('Hello SEI!');
-  req.time = new Date().toLocaleTimeString();
-  next();
-});
-```
-
-Refresh shows that it no longer works because the router middleware are ending the request/response cycle before our "first middleware" is reached.
-
-Move it back above the routes - yup, order of middleware matters.
 
 ## Creating To-Dos
 
@@ -336,6 +229,114 @@ function create(todo) {
 Test it out!
 
 > Note that when `nodemon` restarts the server, added to-dos will be lost.
+
+## What is Middleware?
+
+In the Intro to Express lesson, we identified the three fundamental capabilities provided by web application frameworks:
+
+1. The ability to define routes
+2. The ability to process HTTP requests using middleware
+3. The ability to use a view engine to render dynamic templates
+
+We've already defined routes and rendered dynamic templates.
+
+In this lesson we complete the trifecta by processing requests using middleware.
+
+A middleware is simply a function with the following signature:
+
+```js
+function(req, res, next) {
+  
+}
+```
+
+As you can see, middleware functions have access to Express's _request_ (`req`) and _response_ (`res`) objects with useful properties and methods.  Because they are just objects, middleware may modify them in anyway they see fit.
+
+Here is the basic **middleware pipeline** as it stands currently in our Express generated app:
+
+<img src="https://i.imgur.com/rxTC6lx.png">
+
+Once a middleware has done its job, it either calls `next()` to pass control to the next middleware in the pipeline **or** ends the request as we've been doing with the `render` & `redirect` methods...
+
+Yes, you have already written middleware - the controller actions, `todosCtrl.index` & `todosCtrl.show`, are technically middleware!
+	
+The controller middleware functions didn't need to define the `next` parameter because they were at the **end of the middleware pipeline**.  That is, they ended the request/response cycle by calling a method on the `res` object, e.g., `res.render`.
+
+> The `next` function can also used for [error handling](https://expressjs.com/en/guide/error-handling.html) in Express, but we won't worry about that for now.
+
+## Our First Middleware
+
+There's no better way to understand middleware than to see one in action.
+
+Open **server.js** and add this "do nothing" middleware:
+
+```js
+app.set('view engine', 'ejs');
+	
+// add middleware below the above line of code
+app.use(function(req, res, next) {
+  console.log('Hello SEI!');
+  next();
+});
+```
+
+Type `nodemon` to start the server, browse to `localhost:3000`, and check terminal. 
+
+Note that `app.use` mounts middleware functions into the middleware pipeline.
+
+Let's add a line of code that modifies the `req` object by adding the current time to Express's request object that then can be accessed by any subsequent middleware: 
+
+```js
+app.use(function(req, res, next) {
+  console.log('Hello SEI!');
+  // Add a time property to the req object
+  req.time = new Date().toLocaleTimeString();
+  next();
+});
+```
+> Use the [Node debugger](https://code.visualstudio.com/docs/nodejs/nodejs-debugging) to inspect the above code.
+
+Now let's pass this info to the **todos/index.ejs** view.  **It's the responsibility of controllers to pass data to views.**
+
+Now let's update the `index` action in **controllers/todos.js** so that it passes `req.time` to the template:
+
+```js
+function index(req, res) {
+  res.render('todos/index', {
+    todos: Todo.getAll(),
+    time: req.time  // add this line
+  });
+}
+```
+
+Now we can render the time in **todos/index.ejs** by updating the `<h1>` as follows:
+
+```html
+<h1>Todos as of <%= time %></h1>
+```
+
+Refresh!
+
+#### The order that middleware is mounted matters!
+
+We call it the **middleware pipeline** for a reason - the request flows through the middleware in the order they are mounted using `app.use`.
+
+In **server.js**, let's move our custom middleware below where the routers are being mounted:
+
+```js
+app.use('/', indexRouter);
+app.use('/todos', todosRouter);
+	
+app.use(function(req, res, next) {
+  console.log('Hello SEI!');
+  req.time = new Date().toLocaleTimeString();
+  next();
+});
+```
+
+Refresh shows that it no longer works because the router middleware are ending the request/response cycle before our "first middleware" is reached.
+
+Move it back above the routes - yup, order of middleware matters.
 
 ## `method-override`  Middleware
 
