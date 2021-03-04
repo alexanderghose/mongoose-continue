@@ -6,12 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form 
-    method="POST" 
-    action="/todos/<%= todo_to_edit.id %>?_method=PUT">
-        Edit the todo name:<br>
-        <input name="usertodo" >
-        <button>Edit</button>
-    </form>
+    <h1>The pokemon you've chosen is:</h1>
+    id: <%= p.id %><br>
+    name: <%= p.name %>
 </body>
 </html>

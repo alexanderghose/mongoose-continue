@@ -3,10 +3,9 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-let methodOverride = require('method-override')
 
 var indexRouter = require('./routes/index');
-var todosRouter = require('./routes/todos');
+var usersRouter = require('./routes/users');
 
 var app = express();
 
@@ -14,12 +13,6 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.use(methodOverride('_method'));  // add this
-app.use(function(req,res,next) {
-  console.log("Hello SEI")
-  req.time = 
-  next() // pass the request on to the next middleware
-})
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -27,7 +20,30 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/todos', todosRouter);
+app.use('/users', usersRouter);
+
+let pokemon = [
+  {id:"001",name:"evee"},
+  {id:"002",name:"charizard"},
+  {id:"003",name:"bulbasaur"},
+]
+
+app.get("/pokemon/:id", function(req,res) {
+  console.log(req.params.id)
+  for (let p of pokemon) {
+    if (req.params.id == p.id) {
+      //return res.send(p.name)
+      return res.render('show.ejs', {p: p})
+    }
+  }
+  res.send("error")
+})
+
+app.get('/pokemon', function(req,res) {
+  res.render('pokemonlist.ejs', {
+    pokemon: pokemon
+  })
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
