@@ -42,8 +42,8 @@
     <a href="w04/d3/express-routers-controllers">Express MVC Part II</a>: Controllers
   </td>
   <td>
-    <a href="w04/d4/form-lab">Contact Form Lab</a> <strong>(Deliverable #4)</strong><br><br>
-    <a href="w04/d4/express-middleware">Creating Forms Part II:</a> Middleware + "update" and "delete"
+    <a href="w04/d4/express-middleware">Creating Forms Part II:</a> Middleware + "update" and "delete"<br><br>
+    <a href="w04/d4/form-lab">Contact Form Lab</a> <strong>(Deliverable #4)</strong>
   </td>
   <td>
     <a href="w04/d5/mongodb-intro.md">Intro to MongoDB</a></br></br>
