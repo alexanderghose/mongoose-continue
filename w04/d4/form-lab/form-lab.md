@@ -24,9 +24,11 @@ To practice forms, you are going to create a simple contact form, that may look 
           - a form method="POST" attribute
           - <input> elements that contain a name="something" attribute
   2. Secondly, the user submits the form which is a POST request.
-      - So in your "contactus" router, you'll need a router.post('/handle_submit'... route handler that (1) responds with a message (res.send) or a nice HTML page (res.render) and (2) responds with the information that they provided us (contained in a magic express variable called req.body )
+      - So in your "contactus" router, you'll need a router.post('/handle_submit'... route handler that 
+          - (1) responds with a message (res.send) or a nice HTML page (res.render) and 
+          - (2) responds with the information that they provided us (contained in a magic express variable called req.body )
   3. For reference, feel free to consult our "Suggested Workflow to Add Functionality to a Web App" linked in the day 2 homework, and the CRUD routing chart linked in the middleware lesson
-    
+5. As always, feel free to check out the lesson notes on "create" or the recordings to guide you.
   
 
 
