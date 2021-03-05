@@ -10,7 +10,13 @@
 <body>
   <a href="/">Home</a> | <a href="/todos">To-Do List</a>
   <h1>Todo #<%= todoNum %></h1>
+  <h3><%= todo.id %></h3>
   <h3><%= todo.todo %></h3>
+  <form action="/todos/<%= todo.id %>?_method=PUT"
+    method="POST">
+    <input name="update_todo"></input>
+    <button>Edit me</button>
+  </form>
   <h3>Complete: <%= todo.done ? 'Yes' : 'No' %></h3>
 </body>
 </html>

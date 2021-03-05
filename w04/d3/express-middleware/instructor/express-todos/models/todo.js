@@ -10,8 +10,23 @@ module.exports = {
   getAll,
   getOne, 
   addFormDataToDB,
-  todos,
+  todos, pushStuffIntoArray,
+  deleteTodoFromArray,
 };
+
+function deleteTodoFromArray(id) {
+  const idx = todos.findIndex(todo => todo.id === parseInt(id));
+  todos.splice(idx, 1);
+}
+
+function pushStuffIntoArray(incoming_obj) {
+  let obj = {
+    id: Date.now() % 1000000,
+    todo: incoming_obj.testing,
+    done: false
+  }
+  todos.push(obj)
+}
 
 function getOne(id) {
   // Use the Array.prototype.find iterator method

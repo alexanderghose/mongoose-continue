@@ -1,3 +1,4 @@
+const { todos } = require('../models/todo');
 var Todo = require('../models/todo');
 
 module.exports = {
@@ -5,7 +6,34 @@ module.exports = {
   show,
   newTodo: newTodo,
   create,
+  submit: submit,
+  deleteStuff: deleteStuff,
+  update,
 };
+
+function update(req,res) {
+  let id = req.params.id // from URL
+  let incoming_todo = req.body.update_todo
+  for (let i = 0; i < Todo.todos.length; i++) {
+    if (Todo.todos[i].id == id) {
+      Todo.todos[i].todo = incoming_todo;
+    }
+  }
+  res.redirect('/todos')
+}
+
+function deleteStuff(req,res) {
+  Todo.deleteTodoFromArray(req.params.id)
+  res.redirect('/todos') // <-- an address
+}
+
+function submit(req,res) {
+  console.log("ALL form data:",req.body)
+  console.log("just the 'testing' field :",req.body.testing)
+  Todo.pushStuffIntoArray(req.body)
+  //res.send('thank')
+  res.redirect('/')
+}
 
 function create(req,res) {
   console.log(req.body); // req.body CONTAINS 
