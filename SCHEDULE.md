@@ -66,7 +66,6 @@
   </td>
   <td>
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 3</a> <strong>(Deliverable #5)</strong><br><br>
-    Form Security: preventing CSRF attacks<br><br>
     <strong>Zoe at 4pm</strong>
   </td>
   <td>
