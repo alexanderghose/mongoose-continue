@@ -42,7 +42,7 @@
     <a href="w04/d3/express-routers-controllers">Express MVC Part II</a>: Controllers
   </td>
   <td>
-    Working with Forms: req.body, postman, and XSS/CSRF attacks<br><br>
+    <a href="w04/d4/express-middleware">Creating Forms Part II:</a> Middleware + "update" and "delete"<br><br>
     <a href="w04/d4/form-lab">Contact Form Lab</a> <strong>(Deliverable #4)</strong>
   </td>
   <td>
@@ -65,8 +65,8 @@
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 2</a> <strong>(Pt. 3 is Deliverable #5)</strong>
   </td>
   <td>
-    <a href="w04/d4/express-middleware">Creating Forms Part II:</a> Middleware + "update" and "delete"<br><br>
     <a href="w04/d2/express-dev-skills-lab">Dev Skills Lab part 3</a> <strong>(Deliverable #5)</strong><br><br>
+    Form Security: preventing CSRF attacks<br><br>
     <strong>Zoe at 4pm</strong>
   </td>
   <td>
