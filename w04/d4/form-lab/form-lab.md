@@ -8,7 +8,7 @@ To practice forms, you are going to create a simple contact form, that may look 
 
 1. Create a webserver that delivers a form to your user.
 2. When your user submits this form, they will see a nice HTML page that thanks them for their submission, and displays the data that they have just submitted.
-    - For example, "Thank you for your submission. You provided the following information. Name: Britney Spears. Email: britney@spears.com. Your message: "Oops I did it again"
+    - For example, the message might say: "Thank you for contacting us. You provided the following information. Name: Britney Spears. Email: britney@spears.com. Your message: "Oops I did it again"
 3. (optional) Store this data into a (fake) database (array of objects)
 4. (optional) Email this form data to yourself using the ```nodemailer``` module.
 
