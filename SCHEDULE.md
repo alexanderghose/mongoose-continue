@@ -72,6 +72,7 @@
   </td>
   <td>
     <strong>Proposals: Project 2</strong> at 2pm<br><br>
+    Review: build another CRUD app<br><br>
     gather.town games!
   </td>
 </tr>
