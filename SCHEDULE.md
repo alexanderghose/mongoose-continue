@@ -56,7 +56,8 @@
   <td><strong>Afternoon</strong></td>
   <td>
     <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a><br><br>
-    <a href="w05/d1/03-04-realtime-with-socket-io">Socket.io (optional topic)</a> + Optional <a href="w05/d5/hw-realtime-chat-lab">Realtime Chat Lab</a>
+    <a href="w05/d1/03-04-realtime-with-socket-io">Socket.io (optional topic)</a> + 
+    Optional <a href="w05/d1/hw-realtime-chat-lab">Realtime Chat Lab</a>
   </td>
   <td>
     <a href="w05/d2/erds-models-lab">Data modeling lab: From wireframes to ERD's to models</a> <strong>(Deliverable #7)</strong>
@@ -80,29 +81,29 @@
   <td>
     Start Planning <a href="project-2/project-2-requirements.md">Project 2</a><br><br>
     <a href="https://coursework.vschool.io/mongoose-crud/">Read: Doing CRUD on your DB with Mongoose</a><br><br>
-    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+    Time permitting, work on SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-#15/30
   </td>
   <td>
     <a href="https://git.generalassemb.ly/sei-toronto/sei-extra-review-notes/blob/master/module-02/mongoose-models.md">CRUD operations with Mongoose  + Promises</a><br><br>
-    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+    Time permitting, work on SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-#15/30
   </td>
   <td>
     Finish labs<br><br>
     <a href="project-2/project-2-requirements.md">Project 2</a> Planning <br><br>
-    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+    Time permitting, work on SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-#15/30
   </td>
   <td>
     Finish labs<br /><br />
    <a href="project-2/project-2-requirements.md">Project 2</a> Planning<br><br>
-    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+    Time permitting, work on SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-#15/30
   </td>
   <td>
     <a href="project-2/project-2-requirements.md">Project 2</a></br></br>
     <a href="w05/d5/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web Apps</a>
     </br></br>
     <a href="w05/d5/guide-to-user-centric-crud.md">Read: Guide to User-Centric CRUD</a><br /><br />
-    <a href="https://git.generalassemb.ly/sei-toronto/sei-33-5-review-notes">Review: SEI Textbook</a> (Module 2)<br><br>
-    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+    Review & Practice Unit 2 by creating a Mongoose-based CRUD project<br><br>
+    Time permitting, work on SEI <a href="README.md#8-daily-code-challenges">code challenge</a> #1-#15/30
   </td>
 </tr>
 
