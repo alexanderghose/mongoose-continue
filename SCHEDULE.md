@@ -10,6 +10,107 @@
 
 ## Unit 2
 
+### Week 5 (Mar 8-12)
+
+<table>
+<thead>
+<tr>
+  <td></td>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+</tr>
+</thead>
+<tbody>
+
+
+<tr>
+  <td><strong>Morning</strong></td>
+  <td>
+    <a href="w04/d5/mongoose-intro">Intro to Mongoose (cont'd)</a><br><br>
+    <a href="w04/d5/mongoose-flights-lab-part-1.md">Mongoose Flights Lab part 1 </a><strong>(Pt. 3 is Deliverable #6)</strong>
+  </td>
+  <td>
+    <a href="w05/d2/mongoose-embedding">Mongoose Embedding</a><br /><br />
+    <a href="w05/d2/mongoose-flights-lab-part-2.md">Mongoose Flights Lab part 2 </a><strong>(Pt. 3 is Deliverable #6)</strong>
+  </td>
+  <td>
+    <a href="w05/d3/mongoose-referencing">Mongoose - Referencing</a><br><br>
+    <a href="w05/d3/mongoose-flights-lab-part-3.md">Lab: Mongoose Flights Pt. 3</a><strong> (Deliverable #6)</strong>
+  </td>
+  <td>
+    <a href="w05/d4/js-promises">Asynchronous code: JS Promises vs callbacks vs</a> <strong>async/await</strong><br><br>
+    <a href="w05/d4/js-promises-lab">JS Promises Lab</a> <strong>(Deliverable #8)</strong><br><br>
+    <a href="w05/d4/consuming-3rd-party-apis">Consuming 3rd Party APIs</a> + Optional
+    <a href="w05/d4/consuming-apis-lab">Consuming APIs Lab (Chuck Norris)</a>
+  </td>
+  <td>
+    <a href="w05/d5/oauth-authentication">Oauth Authentication</a><br><br>
+    Exit Tickets
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Afternoon</strong></td>
+  <td>
+    <a href="computer-science/01-cs-big-o-notation">CS Topics: big o notation</a><br><br>
+    <a href="w05/d1/03-04-realtime-with-socket-io">Socket.io (optional topic)</a> + Optional <a href="w05/d5/hw-realtime-chat-lab">Realtime Chat Lab</a>
+  </td>
+  <td>
+    <a href="w05/d2/erds-models-lab">Data modeling lab: From wireframes to ERD's to models</a> <strong>(Deliverable #7)</strong>
+  </td>
+  <td>
+    Attempt-at-own risk: <a href="w05/d3/own-risk-labs">5 optional only-if-youre-bored-and-feeling-adventurous labs</a>
+  </td>
+  <td>
+    <a href="w05/d4/ajax-using-fetch-puppies">AJAX  Fetch + async/await</a></br></br>
+    Optional <a href="w05/d4/ajax-using-fetch-lab.md">AJAX Fetch Lab (OMDb)</a><br><br>
+    <strong>Zoe at 4pm</strong>
+  </td>
+  <td>
+    <strong>Proposals: Project 2</strong> at 2pm<br><br>
+    gather.town games!
+  </td>
+</tr>
+
+<tr>
+  <td><strong>Homework</strong></td>
+  <td>
+    Start Planning <a href="project-2/project-2-requirements.md">Project 2</a><br><br>
+    <a href="https://coursework.vschool.io/mongoose-crud/">Read: Doing CRUD on your DB with Mongoose</a><br><br>
+    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+  </td>
+  <td>
+    <a href="https://git.generalassemb.ly/sei-toronto/sei-extra-review-notes/blob/master/module-02/mongoose-models.md">CRUD operations with Mongoose  + Promises</a><br><br>
+    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+  </td>
+  <td>
+    Finish labs<br><br>
+    <a href="project-2/project-2-requirements.md">Project 2</a> Planning <br><br>
+    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+  </td>
+  <td>
+    Finish labs<br /><br />
+   <a href="project-2/project-2-requirements.md">Project 2</a> Planning<br><br>
+    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+  </td>
+  <td>
+    <a href="project-2/project-2-requirements.md">Project 2</a></br></br>
+    <a href="w05/d5/guide-to-add-feature-to-web-app.md">Review: Guide to Add Features to Web Apps</a>
+    </br></br>
+    <a href="w05/d5/guide-to-user-centric-crud.md">Read: Guide to User-Centric CRUD</a><br /><br />
+    <a href="https://git.generalassemb.ly/sei-toronto/sei-33-5-review-notes">Review: SEI Textbook</a> (Module 2)<br><br>
+    Time permitting, work on SEI <a href="README.md#daily-code-challenges">code challenge</a> #1-#15/30
+  </td>
+</tr>
+
+</tbody>
+</table>
+
+
+
 ### Week 4 (Mar 1 - 5)
 
 <table>

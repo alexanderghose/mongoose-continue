@@ -1,0 +1,5 @@
+# git will ignore anyhting in this .gitignore file
+# and we want our .env file to NEVER be pushed
+
+.env
+node_modules
